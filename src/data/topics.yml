@@ -1,0 +1,19 @@
+- id: individual
+  name: Individual Income Taxes
+  description: ''
+  children:
+    - id: income-tax-rates
+      name: Rates on Ordinary Income
+      description: ''
+    - id: income-itemized-deductions
+      name: Itemized Deductions
+      description: ''
+    - id: income-changes-credits
+      name: Credits
+      description: ''
+    - id: income-changes-amt
+      name: Alternative Minimum Tax
+      description: ''
+    - id: income-cap-gains-dividends
+      name: Rates on Capital Gains and Dividends
+      description: ''
