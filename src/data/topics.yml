@@ -1,48 +1,48 @@
 - id: individual-tax-rates
   name: Rates on Ordinary Income
   category: individual
-  description: ''
+  description:
 - id: itemized-deductions
   name: Itemized Deductions
   category: individual
-  description: ''
+  description:
 - id: individual-credits
   name: Credits
   category: individual
-  description: ''
+  description:
 - id: amt
   name: Alternative Minimum Tax
   category: individual
-  description: ''
+  description:
 - id: cap-gains-dividends
   name: Rates on Capital Gains and Dividends
   category: individual
-  description: ''
+  description:
 - id: corporate-tax-rate
   name: Corporate Tax Rate
   category: corporate
-  description: ''
+  description:
 - id: corporate-expensing
   name: Capital Investment
   category: corporate
-  description: ''
+  description:
 - id: corporate-international
   name: International Income
   category: corporate
-  description: ''
+  description:
 - id: pass-through
   name: Pass-through Business Income
   category: corporate
-  description: ''
+  description:
 - id: payroll-tax
   name: Payroll Taxes
   category: other
-  description: ''
+  description:
 - id: estate-tax
   name: Estate Tax
   category: other
-  description: ''
+  description:
 - id: other-tax
   name: Other Taxes
   category: other
-  description: ''
+  description:
