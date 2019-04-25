@@ -1,5 +1,5 @@
 - id: individual
-  name: Individual Income Taxes
+  name: Individual Taxes
   description: ''
   children:
     - id: income-tax-rates
@@ -16,4 +16,33 @@
       description: ''
     - id: income-cap-gains-dividends
       name: Rates on Capital Gains and Dividends
+      description: ''
+- id: corporate
+  name: Corporate Taxes
+  description: ''
+  children:
+    - id: corporate-tax-rate
+      name: Corporate Tax Rate
+      description: ''
+    - id: corporate-expensing
+      name: Capital Investment
+      description: ''
+    - id: corporate-international
+      name: International Income
+      description: ''
+    - id: corporate-non-corporate
+      name: Pass-through Business Income
+      description: ''
+- id: other
+  name: Other Taxes
+  description: ''
+  children:
+    - id: payroll-tax
+      name: Payroll Taxes
+      description: ''
+    - id: estate-tax
+      name: Estate Tax
+      description: ''
+    - id: other-tax
+      name: Other Taxes
       description: ''
