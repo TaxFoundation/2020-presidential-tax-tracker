@@ -2,6 +2,7 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 
 const dataDirectory = './src/data/';
+const generatedDataDirectory = './src/generatedData/';
 const inputs = ['candidates', 'topics', 'plans'];
 
 const updateData = input => {
@@ -10,18 +11,19 @@ const updateData = input => {
       fs.readFileSync(`${dataDirectory + input}.yml`, 'utf8')
     );
     fs.writeFileSync(
-      `${dataDirectory + input}.json`,
+      `${generatedDataDirectory + input}.json`,
       JSON.stringify(doc, null, 2)
     );
-    console.log(`${input}.json updated`);
+    console.log(`New ${input}.json generated`);
   } catch (e) {
-    console.log(`Data update for ${dataDirectory + input}.json failed: ${e}`);
+    console.log(`Data update for ${input}.json failed: ${e}`);
   }
 };
 
 const beginTheWatch = input => {
   updateData(input);
   if (process.argv.includes('--watch')) {
+    console.log(`Watching ${input}.yml for changes...`);
     fs.watch(`${dataDirectory + input}.yml`, { encoding: 'utf8' }, () => {
       console.log(`Updating ${dataDirectory + input}.json data...`);
       updateData(input);
@@ -30,17 +32,21 @@ const beginTheWatch = input => {
 };
 
 console.log('Removing old data.');
+fs.access(generatedDataDirectory, err => {
+  if (err) {
+    fs.mkdirSync(generatedDataDirectory);
+  }
+});
+
 inputs.forEach(input => {
-  fs.access(`${dataDirectory + input}.json`, err => {
+  fs.access(`${generatedDataDirectory + input}.json`, err => {
     if (err) {
-      console.log(
-        `No ${dataDirectory + input}.json found, creating from scratch.`
-      );
+      console.log(`No ${input}.json found, creating from scratch.`);
       beginTheWatch(input);
     } else {
-      fs.unlink(`${dataDirectory + input}.json`, err => {
+      fs.unlink(`${generatedDataDirectory + input}.json`, err => {
         if (err) throw err;
-        console.log(`Old ${dataDirectory + input}.json deleted.`);
+        console.log(`Old ${input}.json deleted.`);
         beginTheWatch(input);
       });
     }
