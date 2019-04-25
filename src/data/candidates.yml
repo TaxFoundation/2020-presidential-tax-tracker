@@ -1,0 +1,66 @@
+- id: biden
+  name: Joe Biden
+  running: true
+- id: booker
+  name: Cory Booker
+  running: true
+- id: buttigieg
+  name: Pete Buttigieg
+  running: true
+- id: castro
+  name: Julián Castro
+  running: true
+- id: delaney
+  name: John Delaney
+  running: true
+- id: gabbard
+  name: Tulsi Gabbard
+  running: true
+- id: gillibrand
+  name: Kirsten Gillibrand
+  running: true
+- id: harris
+  name: Kamala Harris
+  running: true
+- id: hickenlooper
+  name: John Hickenlooper
+  running: true
+- id: inslee
+  name: Jay Inslee
+  running: true
+- id: klobuchar
+  name: Amy Klobuchar
+  running: true
+- id: messam
+  name: Wayne Messam
+  running: true
+- id: moulton
+  name: Seth Moulton
+  running: true
+- id: beto
+  name: Beto O’Rourke
+  running: true
+- id: ryan
+  name: Tim Ryan
+  running: true
+- id: sanders
+  name: Bernie Sanders
+  running: true
+- id: swalwell
+  name: Eric Swalwell
+  running: true
+- id: warren
+  name: Elizabeth Warren
+  running: true
+- id: williamson
+  name: Marianne Williamson
+  running: true
+- id: yang
+  name: Andrew Yang
+  running: true
+- id: trump
+  name: Donald J. Trump
+  running: true
+- id: weld
+  name: William F. Weld
+  running: true
