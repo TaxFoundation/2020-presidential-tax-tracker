@@ -1,48 +1,48 @@
-- id: individual
-  name: Individual Taxes
+- id: individual-tax-rates
+  name: Rates on Ordinary Income
+  category: individual
   description: ''
-  children:
-    - id: income-tax-rates
-      name: Rates on Ordinary Income
-      description: ''
-    - id: income-itemized-deductions
-      name: Itemized Deductions
-      description: ''
-    - id: income-changes-credits
-      name: Credits
-      description: ''
-    - id: income-changes-amt
-      name: Alternative Minimum Tax
-      description: ''
-    - id: income-cap-gains-dividends
-      name: Rates on Capital Gains and Dividends
-      description: ''
-- id: corporate
-  name: Corporate Taxes
+- id: itemized-deductions
+  name: Itemized Deductions
+  category: individual
   description: ''
-  children:
-    - id: corporate-tax-rate
-      name: Corporate Tax Rate
-      description: ''
-    - id: corporate-expensing
-      name: Capital Investment
-      description: ''
-    - id: corporate-international
-      name: International Income
-      description: ''
-    - id: corporate-non-corporate
-      name: Pass-through Business Income
-      description: ''
-- id: other
+- id: individual-credits
+  name: Credits
+  category: individual
+  description: ''
+- id: amt
+  name: Alternative Minimum Tax
+  category: individual
+  description: ''
+- id: cap-gains-dividends
+  name: Rates on Capital Gains and Dividends
+  category: individual
+  description: ''
+- id: corporate-tax-rate
+  name: Corporate Tax Rate
+  category: corporate
+  description: ''
+- id: corporate-expensing
+  name: Capital Investment
+  category: corporate
+  description: ''
+- id: corporate-international
+  name: International Income
+  category: corporate
+  description: ''
+- id: pass-through
+  name: Pass-through Business Income
+  category: corporate
+  description: ''
+- id: payroll-tax
+  name: Payroll Taxes
+  category: other
+  description: ''
+- id: estate-tax
+  name: Estate Tax
+  category: other
+  description: ''
+- id: other-tax
   name: Other Taxes
+  category: other
   description: ''
-  children:
-    - id: payroll-tax
-      name: Payroll Taxes
-      description: ''
-    - id: estate-tax
-      name: Estate Tax
-      description: ''
-    - id: other-tax
-      name: Other Taxes
-      description: ''
