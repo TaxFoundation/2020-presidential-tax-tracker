@@ -7,9 +7,6 @@
 - id: buttigieg
   name: Pete Buttigieg
   running: true
-- id: castro
-  name: Julián Castro
-  running: true
 - id: delaney
   name: John Delaney
   running: true
@@ -31,17 +28,8 @@
 - id: klobuchar
   name: Amy Klobuchar
   running: true
-- id: messam
-  name: Wayne Messam
-  running: true
-- id: moulton
-  name: Seth Moulton
-  running: true
 - id: beto
   name: Beto O’Rourke
-  running: true
-- id: ryan
-  name: Tim Ryan
   running: true
 - id: sanders
   name: Bernie Sanders
@@ -60,7 +48,4 @@
   running: true
 - id: trump
   name: Donald J. Trump
-  running: true
-- id: weld
-  name: William F. Weld
   running: true
