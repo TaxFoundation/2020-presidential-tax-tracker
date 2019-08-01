@@ -10,8 +10,9 @@ const StyledCandidatesList = styled.ul`
 
 const Candidates = ({ candidates }) => (
   <StyledCandidatesList>
-    canditates.map((candidate) => (<Candidate candidate={candidate} />
-    ))
+    {candidates.map(candidate => (
+      <Candidate candidate={candidate} />
+    ))}
   </StyledCandidatesList>
 );
 

@@ -10,8 +10,9 @@ const StyledTopicsList = styled.ul`
 
 const Topics = ({ topics }) => (
   <StyledTopicsList>
-    topics.map((topic) => (<Topic topic={topic} />
-    ))
+    {topics.map(topic => (
+      <Topic topic={topic} />
+    ))}
   </StyledTopicsList>
 );
 
