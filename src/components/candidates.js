@@ -1,12 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import Candidate from './candidate';
 
+const StyledCandidatesList = styled.ul`
+  list-style: none;
+`;
+
 const Candidates = ({ candidates }) => (
-  <ul>
+  <StyledCandidatesList>
     canditates.map((candidate) => (<Candidate candidate={candidate} />
     ))
-  </ul>
+  </StyledCandidatesList>
 );
+
+Candidates.propTypes = {
+  candidates: PropTypes.array,
+};
 
 export default Candidates;
