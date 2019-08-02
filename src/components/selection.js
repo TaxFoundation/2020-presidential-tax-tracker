@@ -9,13 +9,32 @@ const Container = styled.div`
   background-color: #fff;
   border: 1px solid #bbb;
   border-radius: 4px;
-  padding: 4px;
+`;
+
+const Section = styled.div`
+  border-bottom: 1px solid #bbb;
+  padding: 8px;
+
+  &:last-child {
+    border: 0;
+  }
+`;
+
+const SectionHeading = styled.h2`
+  color: #333;
+  font-family: sans-serif;
 `;
 
 const Selection = ({ candidates, topics }) => (
   <Container>
-    <Candidates candidates={candidates} />
-    <Topics topics={topics} />
+    <Section>
+      <SectionHeading>Candidates</SectionHeading>
+      <Candidates candidates={candidates} />
+    </Section>
+    <Section>
+      <SectionHeading>Topics</SectionHeading>
+      <Topics topics={topics} />
+    </Section>
   </Container>
 );
 
