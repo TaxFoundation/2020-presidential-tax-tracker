@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 import Button from './button';
 
 const Candidate = ({ candidate }) => (
-  <li>
-    <Button id={candidate.id}>{candidate.name}</Button>
-  </li>
+  <Button id={candidate.id}>{candidate.name}</Button>
 );
 
 Candidate.propTypes = {

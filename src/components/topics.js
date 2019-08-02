@@ -3,17 +3,16 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Topic from './topic';
-
-const StyledTopicsList = styled.ul`
-  list-style: none;
-`;
+import { StyledUnorderedList, StyledListItem } from './list';
 
 const Topics = ({ topics }) => (
-  <StyledTopicsList>
+  <StyledUnorderedList>
     {topics.map(topic => (
-      <Topic topic={topic} />
+      <StyledListItem>
+        <Topic topic={topic} />
+      </StyledListItem>
     ))}
-  </StyledTopicsList>
+  </StyledUnorderedList>
 );
 
 Topics.propTypes = {

@@ -3,17 +3,16 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Candidate from './candidate';
-
-const StyledCandidatesList = styled.ul`
-  list-style: none;
-`;
+import { StyledUnorderedList, StyledListItem } from './list';
 
 const Candidates = ({ candidates }) => (
-  <StyledCandidatesList>
+  <StyledUnorderedList>
     {candidates.map(candidate => (
-      <Candidate candidate={candidate} />
+      <StyledListItem>
+        <Candidate candidate={candidate} />
+      </StyledListItem>
     ))}
-  </StyledCandidatesList>
+  </StyledUnorderedList>
 );
 
 Candidates.propTypes = {
