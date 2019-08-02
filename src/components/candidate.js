@@ -1,7 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Candidate = ({ candidate }) => <li>{candidate.name}</li>;
+import Button from './button';
+
+const Candidate = ({ candidate }) => (
+  <li>
+    <Button id={candidate.id}>{candidate.name}</Button>
+  </li>
+);
 
 Candidate.propTypes = {
   candidate: PropTypes.object,
