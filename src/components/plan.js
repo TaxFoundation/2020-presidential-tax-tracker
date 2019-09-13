@@ -15,8 +15,12 @@ const TopicsList = styled.ul`
   padding: 0;
 `;
 
+const TopicHeading = styled.h3`
+  margin: 0 0 0.25rem;
+`;
+
 const ReadMore = styled.a`
-  color: #0094ff;
+  color: ${props => props.theme.tfBlue};
   text-decoration: none;
 `;
 
@@ -28,7 +32,7 @@ const Plan = ({ candidate, plans }) => (
         const topic = topics.find(t => t.id === plan.topic);
         return (
           <li>
-            <h3>{topic.name}</h3>
+            <TopicHeading>{topic.name}</TopicHeading>
             <p>{plan.plan}</p>
             {plan.link && plan.link !== '' && (
               <ReadMore

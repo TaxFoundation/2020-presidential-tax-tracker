@@ -6,14 +6,14 @@ import Candidates from './candidates';
 import Topics from './topics';
 
 const Container = styled.div`
-  background-color: #fff;
-  border: 1px solid #bbb;
+  background-color: ${props => props.theme.white};
+  border: 1px solid ${props => props.theme.borderColor};
   border-radius: 4px;
   margin-bottom: 1rem;
 `;
 
 const Section = styled.div`
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid ${props => props.theme.borderColor};
   padding: 8px;
 
   &:last-child {
@@ -22,7 +22,7 @@ const Section = styled.div`
 `;
 
 const SectionHeading = styled.h2`
-  color: #333;
+  color: ${props => props.theme.color};
   font-family: sans-serif;
 `;
 

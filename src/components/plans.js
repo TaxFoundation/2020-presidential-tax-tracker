@@ -6,13 +6,13 @@ import { Context } from '../state/reducer';
 import Plan from './plan';
 
 const Container = styled.div`
-  background-color: #fff;
-  border: 1px solid #bbb;
+  background-color: ${props => props.theme.white};
+  border: 1px solid ${props => props.theme.borderColor};
   border-radius: 4px;
 `;
 
 const Section = styled.div`
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid ${props => props.theme.borderColor};
   padding: 8px;
 
   &:last-child {

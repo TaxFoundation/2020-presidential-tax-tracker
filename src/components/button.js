@@ -5,17 +5,21 @@ import styled from 'styled-components';
 import { Context } from '../state/reducer';
 
 const StyledButton = styled.button`
-  border: ${props => (props.active ? '1px solid #0094ff' : '1px solid #bbb')};
+  border: ${props =>
+    props.active
+      ? `1px solid ${props.theme.tfBlue}`
+      : `1px solid ${props.theme.borderColor}`};
   border-radius: 4px;
-  background-color: ${props => (props.active ? '#0094ff' : '#fff')};
-  color: ${props => (props.active ? '#fff' : '#333')};
+  background-color: ${props =>
+    props.active ? props.theme.tfBlue : props.theme.white};
+  color: ${props => (props.active ? props.theme.white : props.theme.color)};
   font-size: 14px;
   padding: 4px;
 
   &:hover {
-    background-color: #fff;
-    border: 1px solid #0094ff;
-    color: #0094ff;
+    background-color: ${props => props.theme.white};
+    border: 1px solid ${props => props.theme.tfBlue};
+    color: ${props => props.theme.tfBlue};
   }
 `;
 
