@@ -28,7 +28,7 @@ const Plans = ({ candidates, plans }) => {
       {candidates.map(
         candidate =>
           data[candidate.id] && (
-            <Section>
+            <Section key={`${candidate.id}-plans`}>
               <Plan
                 candidate={candidate}
                 plans={activePlans.filter(

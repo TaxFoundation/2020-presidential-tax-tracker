@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
 import Candidate from './candidate';
 import { StyledUnorderedList, StyledListItem } from './list';
@@ -8,7 +7,7 @@ import { StyledUnorderedList, StyledListItem } from './list';
 const Candidates = ({ candidates }) => (
   <StyledUnorderedList>
     {candidates.map(candidate => (
-      <StyledListItem>
+      <StyledListItem key={`${candidate.id}-select`}>
         <Candidate candidate={candidate} />
       </StyledListItem>
     ))}
