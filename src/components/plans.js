@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { Context } from '../state/reducer';
@@ -42,3 +43,8 @@ const Plans = ({ candidates, plans }) => {
 };
 
 export default Plans;
+
+Plans.propTypes = {
+  candidates: PropTypes.arrayOf(PropTypes.object),
+  plans: PropTypes.arrayOf(PropTypes.object),
+};

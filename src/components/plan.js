@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const StyledPlan = styled.div`
@@ -18,3 +19,8 @@ const Plan = ({ candidate, plans }) => (
 );
 
 export default Plan;
+
+Plan.propTypes = {
+  candidate: PropTypes.arrayOf(PropTypes.object),
+  plans: PropTypes.arrayOf(PropTypes.object),
+};
