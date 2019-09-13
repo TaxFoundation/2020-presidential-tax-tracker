@@ -39,26 +39,30 @@ const ReadMore = styled.a`
 const Plan = ({ candidate, plans }) => (
   <StyledPlan>
     <div>{candidate.name}</div>
-    <TopicsList>
-      {plans.map(plan => {
-        const topic = topics.find(t => t.id === plan.topic);
-        return (
-          <Topic key={`${candidate.id}-${topic.id}`}>
-            <TopicHeading>{topic.name}</TopicHeading>
-            <TopicDescription>{plan.plan}</TopicDescription>
-            {plan.link && plan.link !== '' && (
-              <ReadMore
-                href={plan.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Read More
-              </ReadMore>
-            )}
-          </Topic>
-        );
-      })}
-    </TopicsList>
+    {plans.length ? (
+      <TopicsList>
+        {plans.map(plan => {
+          const topic = topics.find(t => t.id === plan.topic);
+          return (
+            <Topic key={`${candidate.id}-${topic.id}`}>
+              <TopicHeading>{topic.name}</TopicHeading>
+              <TopicDescription>{plan.plan}</TopicDescription>
+              {plan.link && plan.link !== '' && (
+                <ReadMore
+                  href={plan.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read More
+                </ReadMore>
+              )}
+            </Topic>
+          );
+        })}
+      </TopicsList>
+    ) : (
+      <p>Sorry, so plans match these topics for this candidate.</p>
+    )}
   </StyledPlan>
 );
 export default Plan;
