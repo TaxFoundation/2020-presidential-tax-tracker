@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 
 import { Context } from '../state/reducer';
+import Plan from './plan';
 
 const Container = styled.div`
   background-color: #fff;
@@ -20,11 +21,21 @@ const Section = styled.div`
 
 const Plans = ({ candidates, plans }) => {
   const { data } = useContext(Context);
+  const activePlans = plans.filter(plan => data[plan.topic]);
   return (
     <Container>
       {candidates.map(
         candidate =>
-          data[candidate.id] && <Section>Candidate: {candidate.name}</Section>
+          data[candidate.id] && (
+            <Section>
+              <Plan
+                candidate={candidate}
+                plans={activePlans.filter(
+                  plan => plan.candidate === candidate.id
+                )}
+              />
+            </Section>
+          )
       )}
     </Container>
   );

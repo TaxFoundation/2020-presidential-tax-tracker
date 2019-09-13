@@ -9,6 +9,7 @@ const Container = styled.div`
   background-color: #fff;
   border: 1px solid #bbb;
   border-radius: 4px;
+  margin-bottom: 1rem;
 `;
 
 const Section = styled.div`
