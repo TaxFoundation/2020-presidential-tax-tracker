@@ -15,6 +15,11 @@ const TopicsList = styled.ul`
   padding: 0;
 `;
 
+const ReadMore = styled.a`
+  color: #0094ff;
+  text-decoration: none;
+`;
+
 const Plan = ({ candidate, plans }) => (
   <StyledPlan>
     <div>{candidate.name}</div>
@@ -24,7 +29,16 @@ const Plan = ({ candidate, plans }) => (
         return (
           <li>
             <h3>{topic.name}</h3>
-            {plan.plan}
+            <p>{plan.plan}</p>
+            {plan.link && plan.link !== '' && (
+              <ReadMore
+                href={plan.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read More
+              </ReadMore>
+            )}
           </li>
         );
       })}
