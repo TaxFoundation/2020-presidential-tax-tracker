@@ -78,3 +78,43 @@
   topic: corporate-tax-rate
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
   plan: Raising the corporate tax rate to 28 percent, up from the 21 percent.
+- candidate: biden
+  topic: individual-tax-rates
+  link:
+  plan: Reverse the TCJA tax cuts for the wealthy by restoring the 39.6% top marginal tax rate, up from 37%.
+- candidate: biden
+  topic: cap-gains-dividends
+  link:
+  plan: Equalize the top tax rates on investment income and wages and salaries on those earning more than $1 million to pay a top rate of 39.6% on capital gain income.
+- candidate: harris
+  topic: other-tax
+  link:
+  plan: Advocates for repealing the TCJA.
+- candidate: harris
+  topic: individual-tax-rates
+  link:
+  plan: Called to impliment a 4 percent payroll tax increase on households making more than $100,000 per year.
+- candidate: harris
+  topic: cap-gains-dividends
+  link:
+  plan: Called for taxing capital gains at the same rate as ordinary income
+- candidate: sanders
+  topic: individual-tax-rates
+  link:
+  plan: Called for a 4% income-based premium tax on households earning more than $29,000
+- candidate: sanders
+  topic: cap-gains-dividends
+  link:
+  plan: Advocates for raising the current 20% top rate on long-term capital gains and dividend income to match the 37% rate on wages and salaries.
+- candidate: warren
+  topic: individual-tax-rates
+  link:
+  plan: Called for a 4% income-based premium tax on households earning more than $29,000
+- candidate: warren
+  topic: cap-gains-dividends
+  link:
+  plan: Advocates for raising the current 20% top rate on long-term capital gains and dividend income to match the 37% rate on wages and salaries.
+- candidate: warren
+  topic: estate-tax
+  link: 
+  plan: Called to lower estate tax exemption to $3.5 million and $7 million. Additionally, tax rates would increase from the current 40% flat rate to 55% for the portion between $3.5 and $13 million.

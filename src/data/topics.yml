@@ -10,10 +10,6 @@
   name: Credits
   category: individual
   description:
-- id: amt
-  name: Alternative Minimum Tax
-  category: individual
-  description:
 - id: cap-gains-dividends
   name: Rates on Capital Gains and Dividends
   category: individual
