@@ -1,23 +1,19 @@
 - candidate: booker
   topic: individual-credits
   link: https://www.axios.com/cory-booker-2020-election-tax-policy-economic-plan-f51388bc-93ab-4b0b-a590-2404f44283c6.html
-  plan: Plans expansion of EITC (Rise Credit)
+  plan: Plans expansion of Earned Income Tax Credit (Rise Credit).
 - candidate: booker
   topic: corporate-expensing
   link: https://www.nytimes.com/2019/02/19/us/politics/bernie-sanders-on-the-issues.html
-  plan: Increase the number of wealthy Americans subject to the estate tax (vauge)
+  plan: Wants to increase the number of wealthy Americans subject to the estate tax.
 - candidate: booker
   topic: estate-tax
   link: https://www.rollcall.com/news/congress/2020-democrats-bull-market-bashing-wall-street
-  plan: Sen. Cory Booker of New Jersey is pitching a return to the estate tax levels of 2009
-- candidate: booker
-  topic: estate-tax
-  link: https://www.rollcall.com/news/congress/2020-democrats-bull-market-bashing-wall-street
-  plan: Sen. Cory Booker of New Jersey is pitching a return to the estate tax levels of 2009
+  plan: Advocates for a return to the estate tax levels of 2009.
 - candidate: harris
   topic: individual-credits
   link: https://taxfoundation.org/kamala-harris-tax-plan/
-  plan: Large EITC expansion
+  plan: Favors a large expansion of the Earned Income Tax Credit.
 - candidate: harris
   topic: estate-tax
   link: https://chalkbeat.org/posts/us/2019/03/26/kamala-harris-teacher-pay-proposal/
@@ -25,64 +21,60 @@
 - candidate: klobuchar
   topic: corporate-tax-rate
   link: https://www.cnbc.com/2019/03/28/amy-klobuchar-proposes-infrastructure-plan-in-2020-challenge-to-trump.html
-  plan: raising the corporate tax rate to 25 percent, up from the 21 percent
-- candidate: klobuchar
-  topic: corporate-tax-rate
-  link: https://www.cnbc.com/2019/03/28/amy-klobuchar-proposes-infrastructure-plan-in-2020-challenge-to-trump.html
-  plan: raising the corporate tax rate to 25 percent, up from the 21 percent
+  plan: Raising the corporate tax rate to 25 percent, up from the 21 percent.
 - candidate: biden
   topic: cap-gains-dividends
   link: https://www.realclearpolitics.com/video/2019/04/29/watch_live_biden_kicks_off_2020_campaign_with_pittsburgh_rally.html
-  plan: end of step-up basis for inherited wealth
-- candidate: biden
-  topic: estate-tax
-  link: https://www.realclearpolitics.com/video/2019/04/29/watch_live_biden_kicks_off_2020_campaign_with_pittsburgh_rally.html
-  plan: end of step-up basis for inherited wealth
+  plan: Calls for end of step-up basis for inherited wealth.
 - candidate: biden
   topic: other-tax
   link: https://www.marketwatch.com/story/biden-calls-for-15-minimum-wage-public-option-health-plan-in-first-campaign-speech-2019-04-29
-  plan: Seemingly calls for the reversal of the TCJA
+  plan: Calls for the reversal of the TCJA
 - candidate: sanders
   topic: individual-tax-rates
   link: https://www.sanders.senate.gov/download/estate-tax-one-pager?inline=file
-  plan: For The 99.8% Act, large overhaul of indiv income rates
+  plan: Proposed the For The 99.8% Act, a large overhaul of individual income tax rates and brackets.
 - candidate: sanders
   topic: estate-tax
   link: https://www.nytimes.com/2019/02/19/us/politics/bernie-sanders-on-the-issues.html
-  plan: Increase the number of wealthy Americans subject to the estate tax
-- candidate: sanders
+  plan: Advocates for increasing the number of wealthy Americans subject to the estate tax.
+- candidate: warren
   topic: other-tax
   link: https://www.warren.senate.gov/newsroom/press-releases/senator-warren-unveils-proposal-to-tax-wealth-of-ultra-rich-americans
-  plan: Wealth Tax
+  plan: Calls for a wealth tax in which households would pay an annual 2% tax on every dollar of net worth above $50 million and a 3% tax on every dollar of net worth above $1 billion.
 - candidate: castro
   topic: individual-tax-rates
   link: https://www.elle.com/culture/movies-tv/a27073125/julian-castro-presidential-election-2020-issues/
-  plan: support for Rep. Alexandria Ocasio-Cortez’ idea to  increase tax rates for the top earners in the U.S. 
+  plan: Indicated support for Rep. Alexandria Ocasio-Cortez’ idea to increase tax rates for the top earners in the U.S.
 - candidate: castro
   topic: corporate-tax-rate
   link:
-  plan: Suggested raising the corporate tax rate to ensure companies "pay their fair share."
+  plan: Suggested raising the corporate tax rates.
 - candidate: buttigieg
   topic: individual-tax-rates
   link:
-  plan: higher marginal tax rate for top income earners
-- candidate: buttigieg
-  topic: individual-tax-rates
-  link:
-  plan: higher marginal tax rate for top income earners
+  plan: Calls for higher marginal tax rate for top income earners,
 - candidate: buttigieg
   topic: estate-tax
   link:
-  plan: vauge exansion of estate tax
+  plan: Indicated support for a wealth tax.
 - candidate: buttigieg
   topic: other-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
-  plan: Wealth tax and financial transactions tax
+  plan: Called for a wealth tax and a financial transaction tax.
 - candidate: delaney
   topic: other-tax
   link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
-  plan: Carbon Fee and Dividend proposal
-- candidate: trump
-  topic: itemized-deductions
-  link: https://taxfoundation.org
-  plan: Swiss monterey jack dolcelatte. Blue castello squirty cheese swiss edam hard cheese cheese on toast port-salut ricotta. Croque monsieur fromage bocconcini goat cream cheese brie halloumi cheeseburger. Ricotta cheese slices lancashire emmental edam boursin port-salut cottage cheese. Smelly cheese airedale taleggio.
+  plan: Called for a Carbon Fee and Dividend plan.
+- candidate: yang
+  topic: other-tax
+  link: https://www.yang2020.com/policies/value-added-tax/
+  plan: Proposed to implement a Value-Added Tax at 10%.
+- candidate: beto
+  topic: individual-tax-rates
+  link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
+  plan: Proposed increasing the top marginal tax rate up to 39%.
+- candidate: beto
+  topic: corporate-tax-rate
+  link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
+  plan: Raising the corporate tax rate to 28 percent, up from the 21 percent.

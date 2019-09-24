@@ -15,16 +15,16 @@
   running: true
 - id: gillibrand
   name: Kirsten Gillibrand
-  running: true
+  running: false
 - id: harris
   name: Kamala Harris
   running: true
 - id: hickenlooper
   name: John Hickenlooper
-  running: true
+  running: false
 - id: inslee
   name: Jay Inslee
-  running: true
+  running: false
 - id: klobuchar
   name: Amy Klobuchar
   running: true
@@ -36,7 +36,7 @@
   running: true
 - id: swalwell
   name: Eric Swalwell
-  running: true
+  running: false
 - id: warren
   name: Elizabeth Warren
   running: true
