@@ -41,24 +41,25 @@ const Plan = ({ candidate, plans }) => (
     <div>{candidate.name}</div>
     {plans.length ? (
       <TopicsList>
-        {plans.map(plan => {
-          const topic = topics.find(t => t.id === plan.topic);
-          return (
-            <Topic key={`${candidate.id}-${topic.id}`}>
-              <TopicHeading>{topic.name}</TopicHeading>
-              <TopicDescription>{plan.plan}</TopicDescription>
-              {plan.link && plan.link !== '' && (
-                <ReadMore
-                  href={plan.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read More
-                </ReadMore>
-              )}
-            </Topic>
-          );
-        })}
+        {plans.map(plan =>
+          topics
+            .filter(t => t.id === plan.topic)
+            .map(topic => (
+              <Topic key={`${candidate.id}-${topic.id}`}>
+                <TopicHeading>{topic.name}</TopicHeading>
+                <TopicDescription>{plan.plan}</TopicDescription>
+                {plan.link && plan.link !== '' && (
+                  <ReadMore
+                    href={plan.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read More
+                  </ReadMore>
+                )}
+              </Topic>
+            ))
+        )}
       </TopicsList>
     ) : (
       <p>Sorry, so plans match these topics for this candidate.</p>
