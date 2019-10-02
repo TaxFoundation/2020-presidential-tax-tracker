@@ -3,7 +3,7 @@
   running: true
 - id: booker
   name: Cory Booker
-  running: true
+  running: false
 - id: buttigieg
   name: Pete Buttigieg
   running: true
