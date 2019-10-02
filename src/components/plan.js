@@ -62,7 +62,7 @@ const Plan = ({ candidate, plans }) => (
         )}
       </TopicsList>
     ) : (
-      <p>Sorry, so plans match these topics for this candidate.</p>
+      <p>Sorry, no plans match these topics for this candidate.</p>
     )}
   </StyledPlan>
 );
