@@ -47,7 +47,9 @@ const Plan = ({ candidate, plans }) => (
             .map(topic => (
               <Topic key={`${candidate.id}-${topic.id}`}>
                 <TopicHeading>{topic.name}</TopicHeading>
-                <TopicDescription>{plan.plan}</TopicDescription>
+                {plan.plan.split(/\n/).map(s => (
+                  <TopicDescription>{s}</TopicDescription>
+                ))}
                 {plan.link && plan.link !== '' && (
                   <ReadMore
                     href={plan.link}
