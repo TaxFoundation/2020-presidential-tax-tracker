@@ -49,3 +49,6 @@
 - id: trump
   name: Donald J. Trump
   running: true
+- id: castro
+  name: Julián Castro
+  running: true  
