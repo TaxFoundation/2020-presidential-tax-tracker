@@ -54,4 +54,7 @@
   running: true
 - id: bennet
   name: Michael Bennet
-  running: true   
+  running: true
+- id: bullock
+  name: Steve Bullock
+  running: true     
