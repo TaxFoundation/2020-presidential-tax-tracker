@@ -1,7 +1,7 @@
 - candidate: booker
   topic: individual-credits
   link: https://www.axios.com/cory-booker-2020-election-tax-policy-economic-plan-f51388bc-93ab-4b0b-a590-2404f44283c6.html
-  plan: Plans expansion of Earned Income Tax Credit (Rise Credit).
+  plan: Expand the Earned Income Tax Credit (Rise Credit).
 - candidate: booker
   topic: estate-tax
   link: https://taxfoundation.org/cory-booker-estate-tax-step-up-in-basis/ 
@@ -9,23 +9,19 @@
 - candidate: harris
   topic: individual-credits
   link: https://taxfoundation.org/kamala-harris-tax-plan/
-  plan: Favors a large expansion of the Earned Income Tax Credit.
+  plan: Expand the Earned Income Tax Credit.
 - candidate: harris
   topic: estate-tax
-  link: https://chalkbeat.org/posts/us/2019/03/26/kamala-harris-teacher-pay-proposal/
-  plan: “Strengthening the estate tax and cracking down on loopholes” used by wealthy taxpayers.
+  link: https://www.nbcnews.com/politics/2020-election/kamala-harris-unveils-315-billion-plan-boost-teacher-pay-n987171 
+  plan: Expand the estate tax.
 - candidate: klobuchar
   topic: corporate-tax-rate
   link: https://www.cnbc.com/2019/03/28/amy-klobuchar-proposes-infrastructure-plan-in-2020-challenge-to-trump.html
-  plan: Raising the corporate tax rate to 25 percent, up from the 21 percent.
+  plan: Raise the corporate tax rate to 25 percent, up from the 21 percent.
 - candidate: biden
   topic: cap-gains-dividends
   link: https://taxfoundation.org/joe-biden-tax-proposals/
-  plan: Calls for end of step-up basis for inherited wealth.
-- candidate: biden
-  topic: other-tax
-  link: https://www.marketwatch.com/story/biden-calls-for-15-minimum-wage-public-option-health-plan-in-first-campaign-speech-2019-04-29
-  plan: Calls for the reversal of the TCJA
+  plan: Eliminate step-up in basis.
 - candidate: sanders
   topic: individual-tax-rates
   link: https://www.sanders.senate.gov/download/estate-tax-one-pager?inline=file
@@ -37,7 +33,7 @@
 - candidate: warren
   topic: other-tax
   link: https://www.warren.senate.gov/newsroom/press-releases/senator-warren-unveils-proposal-to-tax-wealth-of-ultra-rich-americans
-  plan: Calls for a wealth tax in which households would pay an annual 2% tax on every dollar of net worth above $50 million and a 3% tax on every dollar of net worth above $1 billion.
+  plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 3 percent tax on every dollar of net worth above $1 billion.
 - candidate: castro
   topic: individual-tax-rates
   link: https://www.elle.com/culture/movies-tv/a27073125/julian-castro-presidential-election-2020-issues/
@@ -45,59 +41,59 @@
 - candidate: castro
   topic: corporate-tax-rate
   link: https://issues.juliancastro.com/working-families-first/?source=medium-release
-  plan: Repeal the TCJA corporate tax cut.
+  plan: Repeal the Tax Cuts and Jobs Act corporate tax cut.
 - candidate: buttigieg
   topic: individual-tax-rates
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html 
-  plan: Calls for higher marginal tax rate for top income earners.
+  plan: Increase marginal tax rate for top income earners.
 - candidate: buttigieg
   topic: other-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
-  plan: Called for a wealth tax and a financial transaction tax.
+  plan: Create a wealth tax and a financial transaction tax.
 - candidate: delaney
   topic: other-tax
   link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
-  plan: Called for a Carbon Fee and Dividend plan.
+  plan: Create a Carbon Fee and Dividend plan.
 - candidate: yang
   topic: other-tax
   link: https://www.yang2020.com/policies/value-added-tax/
-  plan: Proposed to implement a Value-Added Tax at 10%.
+  plan: Create a Value-Added Tax of 10 percent.
 - candidate: beto
   topic: individual-tax-rates
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
-  plan: Proposed increasing the top marginal tax rate up to 39%.
+  plan: Increase the top marginal tax rate up to 39 percent.
 - candidate: beto
   topic: corporate-tax-rate
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
-  plan: Raising the corporate tax rate to 28 percent, up from the 21 percent.
+  plan: Raise the corporate tax rate to 28 percent, up from the 21 percent.
 - candidate: biden
   topic: individual-tax-rates
   link: https://www.nbcnews.com/politics/2020-election/full-transcript-2019-democratic-debate-night-two-sortable-topic-n1023601
-  plan: Reverse the TCJA tax cuts for the wealthy by restoring the 39.6% top marginal tax rate, up from 37%.
+  plan: Reverse the Tax Cuts and Jobs Act tax cuts for the wealthy by restoring the 39.6 percent top marginal tax rate, up from 37 percent.
 - candidate: biden
   topic: cap-gains-dividends
   link: https://taxfoundation.org/joe-biden-tax-proposals/ 
-  plan: Equalize the top tax rates on investment income and wages and salaries on those earning more than $1 million to pay a top rate of 39.6% on capital gain income.
+  plan: Tax capital gains at the same rate as ordinary income for those earnings more than $1 million.
 - candidate: harris
   topic: other-tax
   link: https://www.bloomberg.com/news/articles/2019-05-07/kamala-harris-calls-for-full-repeal-of-trump-s-2017-tax-law
-  plan: Advocates for repealing the entire TCJA.
+  plan: Repeal the entire Tax Cuts and Jobs Act.
 - candidate: harris
   topic: individual-tax-rates
   link: https://www.npr.org/2019/07/30/746805856/the-democratic-debate-over-medicare-for-all-and-middle-class-taxes-explained
-  plan: Called to impliment a 4 percent payroll tax increase on households making more than $100,000 per year.
+  plan: Implement a 4 percent payroll tax increase on households making more than $100,000 per year.
 - candidate: harris
   topic: cap-gains-dividends
   link: https://kamalaharris.org/healthcare/
-  plan: Called for taxing capital gains at the same rate as ordinary income
+  plan: Tax capital gains at the same rate as ordinary income.
 - candidate: sanders
   topic: individual-tax-rates
   link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Called for a 4% income-based premium tax on households earning more than $29,000
+  plan: Implement a 4 percent income-based premium tax on households earning more than $29,000.
 - candidate: sanders
   topic: cap-gains-dividends
   link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Advocates for raising the current 20% top rate on long-term capital gains and dividend income to match the 37% rate on wages and salaries.
+  plan: Raise the current 20 percent top rate on long-term capital gains and dividend income to match the 37 percent rate on wages and salaries.
 - candidate: warren
   topic: other-tax
   link: https://www.wral.com/day-after-debate-elizabeth-warrens-campaign-says-its-reviewing-other-revenue-options-for-medicare-for-all/18702946/
@@ -105,11 +101,11 @@
 - candidate: klobuchar
   topic: other-tax
   link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
-  plan: Reverse the TCJA corporate income tax cut and international reforms.
+  plan: Reverse the Tax Cuts and Jobs Act corporate income tax cut and international reforms.
 - candidate: buttigieg
   topic: other-tax
   link: https://www.nbcnews.com/politics/2020-election/full-transcript-2019-democratic-debate-night-two-sortable-topic-n1023601 
-  plan: Called for a carbon tax and dividend.
+  plan: Create a carbon tax and dividend.
 - candidate: beto
   topic: cap-gains-dividends
   link: https://www.nbcnews.com/politics/2020-election/full-transcript-first-democratic-primary-debate-2019-n1022816
@@ -117,19 +113,19 @@
 - candidate: warren
   topic: payroll-tax
   link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
-  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more and impose a 14.8% tax split between employers and employees.
+  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more and impose a 14.8 percent tax split between employers and employees.
 - candidate: warren
   topic: cap-gains-dividends
   link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html 
-  plan: Levy a 14.8% tax on investment income of individuals earning more than $250,000 and couples earning more than $400,000.
+  plan: Levy a 14.8 percent tax on investment income of individuals earning more than $250,000 and couples earning more than $400,000.
 - candidate: castro
   topic: cap-gains-dividends
   link: https://issues.juliancastro.com/working-families-first/?source=medium-release 
-  plan: Raise the capital gains tax rate to 40% for individuals who earn $400,000 or more. 
+  plan: Raise the capital gains tax rate to 40 percent for individuals who earn $400,000 or more. 
 - candidate: castro
   topic: estate-tax
   link: https://issues.juliancastro.com/working-families-first/?source=medium-release
-  plan: End stepped-up basis for inherited wealth.
+  plan: Eliminate step-up in basis.
 - candidate: castro
   topic: cap-gains-dividends
   link: https://issues.juliancastro.com/working-families-first/?source=medium-release
@@ -141,7 +137,7 @@
 - candidate: warren
   topic: corporate-tax-rate
   link:  https://taxfoundation.org/elizabeth-warren-corporate-tax-plan/ 
-  plan: Create a 7% surtax on corporate profits as reported on financial statements. 
+  plan: Create a 7 percent surtax on corporate profits as reported on financial statements. 
 - candidate: yang
   topic: other-tax
   link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
@@ -185,8 +181,8 @@
 - candidate: bullock
   topic: individual-tax-rates
   link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
-  plan: Reverse the TCJA tax cuts for the wealthy.
+  plan: Reverse the Tax Cuts and Jobs Act tax cuts for the wealthy.
 - candidate: bullock
   topic: cap-gains-dividends
   link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
-  plan: Address the rate difference between passive and ordinary income. 
+  plan: Tax capital gains at the same rate as ordinary income. 
