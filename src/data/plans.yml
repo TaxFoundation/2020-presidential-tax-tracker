@@ -45,7 +45,7 @@
 - candidate: buttigieg
   topic: individual-tax-rates
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html 
-  plan: Increase marginal tax rate for top income earners.
+  plan: Increase the marginal tax rate for top income earners.
 - candidate: buttigieg
   topic: other-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
@@ -53,7 +53,7 @@
 - candidate: delaney
   topic: other-tax
   link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
-  plan: Create a Carbon Fee and Dividend plan.
+  plan: Create a carbon tax and dividend.
 - candidate: yang
   topic: other-tax
   link: https://www.yang2020.com/policies/value-added-tax/
@@ -61,7 +61,7 @@
 - candidate: beto
   topic: individual-tax-rates
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
-  plan: Increase the top marginal tax rate up to 39 percent.
+  plan: Increase the top marginal tax rate to 39 percent.
 - candidate: beto
   topic: corporate-tax-rate
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
@@ -93,15 +93,19 @@
 - candidate: sanders
   topic: cap-gains-dividends
   link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Raise the current 20 percent top rate on long-term capital gains and dividend income to match the 37 percent rate on wages and salaries.
+  plan: Tax capital gains at the same rate as ordinary income for household income above $250,000.
 - candidate: warren
   topic: other-tax
   link: https://www.wral.com/day-after-debate-elizabeth-warrens-campaign-says-its-reviewing-other-revenue-options-for-medicare-for-all/18702946/
   plan: Previously expressed support for Senator Sanders' plan to fund Medicare for All but is now reviewing other revenue options.  
 - candidate: klobuchar
-  topic: other-tax
+  topic: corporate-tax-rate
   link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
-  plan: Reverse the Tax Cuts and Jobs Act corporate income tax cut and international reforms.
+  plan: Reverse the Tax Cuts and Jobs Act corporate income tax cut.
+- candidate: klobuchar
+  topic: corporate-international
+  link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
+  topic: Reverse the Tax Cuts and Jobs Act international reforms.
 - candidate: buttigieg
   topic: other-tax
   link: https://www.nbcnews.com/politics/2020-election/full-transcript-2019-democratic-debate-night-two-sortable-topic-n1023601 
@@ -147,7 +151,7 @@
   link: https://taxfoundation.org/bernie-sanders-wealth-tax/ 
   plan: Create a progressive wealth tax on household assets and income over $32 million (for married couples).  
 - candidate: booker
-  topic: other-tax
+  topic: individual-credits
   link: https://taxfoundation.org/cory-booker-rent-credit/
   plan: Create a refundable tax credit for renters.
 - candidate: beto
@@ -155,7 +159,7 @@
   link: https://taxfoundation.org/beto-orourke-war-tax/
   plan: Create a "war tax."
 - candidate: bennet
-  topic:  other-tax
+  topic: individual-credits
   link: https://taxfoundation.org/senator-michael-bennet-eitc/
   plan: Expand the maximum Earned Income Tax Credit for childless workers.
 - candidate: sanders
@@ -169,15 +173,15 @@
 - candidate: buttigieg
   topic: corporate-tax-rate
   link: https://www.bloomberg.com/amp/news/articles/2019-10-20/pete-buttigieg-eyes-35-corporate-tax-rate-to-fund-health-plan?__twitter_impression=true
-  plan: Raise the corporate income tax rate from 21 percent to 35 percent. 
+  plan: Raise the corporate income tax rate to 35 percent, up from 21 percent. 
 - candidate: biden
   topic: corporate-tax-rate
   link: https://nypost.com/2019/07/05/biden-wants-to-raise-the-corporate-tax-rate-back-to-obama-era/
-  plan: Raise the corporate income tax rate from 21 percent to 28 percent.  
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.  
 - candidate: bullock
   topic: corporate-tax-rate
   link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
-  plan: Raise the corporate income tax rate from 21 percent to 28 percent.
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
 - candidate: bullock
   topic: individual-tax-rates
   link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
