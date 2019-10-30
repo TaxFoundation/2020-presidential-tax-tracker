@@ -31,7 +31,7 @@
   link: https://taxfoundation.org/bernie-sanders-estate-tax/  
   plan: Return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
 - candidate: warren
-  topic: other-tax
+  topic: wealth-tax
   link: https://www.warren.senate.gov/newsroom/press-releases/senator-warren-unveils-proposal-to-tax-wealth-of-ultra-rich-americans
   plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 3 percent tax on every dollar of net worth above $1 billion.
 - candidate: castro
@@ -47,7 +47,7 @@
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html 
   plan: Increase the marginal tax rate for top income earners.
 - candidate: buttigieg
-  topic: other-tax
+  topic: wealth-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
   plan: Create a wealth tax and a financial transaction tax.
 - candidate: delaney
@@ -147,7 +147,7 @@
   link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
   plan: Create a "Freedom Dividend" funded by five tax changes.
 - candidate: sanders
-  topic: other-tax
+  topic: wealth-tax
   link: https://taxfoundation.org/bernie-sanders-wealth-tax/ 
   plan: Create a progressive wealth tax on household assets and income over $32 million (for married couples).  
 - candidate: booker
