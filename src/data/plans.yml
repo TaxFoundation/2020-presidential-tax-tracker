@@ -1,20 +1,208 @@
+- candidate: booker
+  topic: individual-credits
+  link: https://www.axios.com/cory-booker-2020-election-tax-policy-economic-plan-f51388bc-93ab-4b0b-a590-2404f44283c6.html
+  plan: Expand the Earned Income Tax Credit (Rise Credit).
+- candidate: booker
+  topic: estate-tax
+  link: https://taxfoundation.org/cory-booker-estate-tax-step-up-in-basis/ 
+  plan: Eliminate step-up in basis and return to the estate tax levels of 2009.
+- candidate: harris
+  topic: individual-credits
+  link: https://taxfoundation.org/kamala-harris-tax-plan/
+  plan: Expand the Earned Income Tax Credit.
+- candidate: harris
+  topic: estate-tax
+  link: https://www.nbcnews.com/politics/2020-election/kamala-harris-unveils-315-billion-plan-boost-teacher-pay-n987171 
+  plan: Expand the estate tax.
+- candidate: klobuchar
+  topic: corporate-tax-rate
+  link: https://www.cnbc.com/2019/03/28/amy-klobuchar-proposes-infrastructure-plan-in-2020-challenge-to-trump.html
+  plan: Raise the corporate tax rate to 25 percent, up from the 21 percent.
+- candidate: biden
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/joe-biden-tax-proposals/
+  plan: Eliminate step-up in basis.
+- candidate: sanders
+  topic: individual-tax-rates
+  link: https://www.sanders.senate.gov/download/estate-tax-one-pager?inline=file
+  plan: Proposed the For The 99.8% Act, a large overhaul of individual income tax rates and brackets.
+- candidate: sanders
+  topic: estate-tax
+  link: https://taxfoundation.org/bernie-sanders-estate-tax/  
+  plan: Return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
+- candidate: warren
+  topic: other-tax
+  link: https://www.warren.senate.gov/newsroom/press-releases/senator-warren-unveils-proposal-to-tax-wealth-of-ultra-rich-americans
+  plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 3 percent tax on every dollar of net worth above $1 billion.
+- candidate: castro
+  topic: individual-tax-rates
+  link: https://www.elle.com/culture/movies-tv/a27073125/julian-castro-presidential-election-2020-issues/
+  plan: Indicated support for Rep. Alexandria Ocasio-Cortez’ idea to increase tax rates for the top earners in the U.S.
+- candidate: castro
+  topic: corporate-tax-rate
+  link: https://issues.juliancastro.com/working-families-first/?source=medium-release
+  plan: Repeal the Tax Cuts and Jobs Act corporate tax cut.
 - candidate: buttigieg
   topic: individual-tax-rates
-  link:
-  plan: Lancashire monterey jack stinking bishop. Lancashire bocconcini croque monsieur queso cheesecake bocconcini manchego cauliflower cheese. Say cheese say cheese paneer macaroni cheese cheese triangles croque monsieur cow cauliflower cheese. Cheesy grin cut the cheese.
+  link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html 
+  plan: Increase the marginal tax rate for top income earners.
+- candidate: buttigieg
+  topic: other-tax
+  link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
+  plan: Create a wealth tax and a financial transaction tax.
+- candidate: delaney
+  topic: other-tax
+  link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
+  plan: Create a carbon tax and dividend.
+- candidate: yang
+  topic: other-tax
+  link: https://www.yang2020.com/policies/value-added-tax/
+  plan: Create a Value-Added Tax of 10 percent.
+- candidate: beto
+  topic: individual-tax-rates
+  link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
+  plan: Increase the top marginal tax rate to 39 percent.
+- candidate: beto
+  topic: corporate-tax-rate
+  link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
+  plan: Raise the corporate tax rate to 28 percent, up from the 21 percent.
+- candidate: biden
+  topic: individual-tax-rates
+  link: https://www.nbcnews.com/politics/2020-election/full-transcript-2019-democratic-debate-night-two-sortable-topic-n1023601
+  plan: Reverse the Tax Cuts and Jobs Act tax cuts for the wealthy by restoring the 39.6 percent top marginal tax rate, up from 37 percent.
+- candidate: biden
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/joe-biden-tax-proposals/ 
+  plan: Tax capital gains at the same rate as ordinary income for those earnings more than $1 million.
+- candidate: harris
+  topic: other-tax
+  link: https://www.bloomberg.com/news/articles/2019-05-07/kamala-harris-calls-for-full-repeal-of-trump-s-2017-tax-law
+  plan: Repeal the entire Tax Cuts and Jobs Act.
 - candidate: harris
   topic: individual-tax-rates
-  link:
-  plan: Melted cheese monterey jack cheesy grin. Cheeseburger airedale smelly cheese monterey jack fromage frais queso croque monsieur fromage frais. Mozzarella melted cheese brie paneer lancashire cream cheese edam croque monsieur. Halloumi goat bavarian bergkase bavarian bergkase fromage.
+  link: https://www.npr.org/2019/07/30/746805856/the-democratic-debate-over-medicare-for-all-and-middle-class-taxes-explained
+  plan: Implement a 4 percent payroll tax increase on households making more than $100,000 per year.
+- candidate: harris
+  topic: cap-gains-dividends
+  link: https://kamalaharris.org/healthcare/
+  plan: Tax capital gains at the same rate as ordinary income.
+- candidate: sanders
+  topic: individual-tax-rates
+  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
+  plan: Implement a 4 percent income-based premium tax on households earning more than $29,000.
+- candidate: sanders
+  topic: cap-gains-dividends
+  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
+  plan: Tax capital gains at the same rate as ordinary income for household income above $250,000.
 - candidate: warren
+  topic: other-tax
+  link: https://www.wral.com/day-after-debate-elizabeth-warrens-campaign-says-its-reviewing-other-revenue-options-for-medicare-for-all/18702946/
+  plan: Previously expressed support for Senator Sanders' plan to fund Medicare for All but is now reviewing other revenue options.  
+- candidate: klobuchar
+  topic: corporate-tax-rate
+  link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
+  plan: Reverse the Tax Cuts and Jobs Act corporate income tax cut.
+- candidate: klobuchar
+  topic: corporate-international
+  link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
+  plan: Reverse the Tax Cuts and Jobs Act international reforms.
+- candidate: buttigieg
+  topic: other-tax
+  link: https://www.nbcnews.com/politics/2020-election/full-transcript-2019-democratic-debate-night-two-sortable-topic-n1023601 
+  plan: Create a carbon tax and dividend.
+- candidate: beto
+  topic: cap-gains-dividends
+  link: https://www.nbcnews.com/politics/2020-election/full-transcript-first-democratic-primary-debate-2019-n1022816
+  plan: Tax capital gains at the same rate as ordinary income.
+- candidate: warren
+  topic: payroll-tax
+  link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
+  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more and impose a 14.8 percent tax split between employers and employees.
+- candidate: warren
+  topic: cap-gains-dividends
+  link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html 
+  plan: Levy a 14.8 percent tax on investment income of individuals earning more than $250,000 and couples earning more than $400,000.
+- candidate: castro
+  topic: cap-gains-dividends
+  link: https://issues.juliancastro.com/working-families-first/?source=medium-release 
+  plan: Raise the capital gains tax rate to 40 percent for individuals who earn $400,000 or more. 
+- candidate: castro
+  topic: estate-tax
+  link: https://issues.juliancastro.com/working-families-first/?source=medium-release
+  plan: Eliminate step-up in basis.
+- candidate: castro
+  topic: cap-gains-dividends
+  link: https://issues.juliancastro.com/working-families-first/?source=medium-release
+  plan: Establish mark-to-market taxation of capital for the top 0.1 percent of asset holders.
+- candidate: castro
+  topic: estate-tax
+  link: https://issues.juliancastro.com/working-families-first/?source=medium-release
+  plan: Replace the estate tax and gift tax with a unified inheritance gift tax.
+- candidate: warren
+  topic: corporate-tax-rate
+  link:  https://taxfoundation.org/elizabeth-warren-corporate-tax-plan/ 
+  plan: Create a 7 percent surtax on corporate profits as reported on financial statements. 
+- candidate: yang
+  topic: other-tax
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
+  plan: Create a "Freedom Dividend" funded by five tax changes.
+- candidate: sanders
+  topic: other-tax
+  link: https://taxfoundation.org/bernie-sanders-wealth-tax/ 
+  plan: Create a progressive wealth tax on household assets and income over $32 million (for married couples).  
+- candidate: booker
+  topic: individual-credits
+  link: https://taxfoundation.org/cory-booker-rent-credit/
+  plan: Create a refundable tax credit for renters.
+- candidate: beto
+  topic: other-tax
+  link: https://taxfoundation.org/beto-orourke-war-tax/
+  plan: Create a "war tax."
+- candidate: bennet
+  topic: individual-credits
+  link: https://taxfoundation.org/senator-michael-bennet-eitc/
+  plan: Expand the maximum Earned Income Tax Credit for childless workers.
+- candidate: sanders
+  topic: other-tax
+  link: https://www.sanders.senate.gov/download/inclusive-prosperity-fact-sheet-2019?id=E276EEE6-B1A2-47E5-964B-4070367CBD33&download=1&inline=file  
+  plan: Impose a financial transactions tax.   
+- candidate: harris
+  topic: other-tax
+  link: https://kamalaharris.org/healthcare/
+  plan: Impose a financial transactions tax. 
+- candidate: buttigieg
+  topic: corporate-tax-rate
+  link: https://www.bloomberg.com/amp/news/articles/2019-10-20/pete-buttigieg-eyes-35-corporate-tax-rate-to-fund-health-plan?__twitter_impression=true
+  plan: Raise the corporate income tax rate to 35 percent, up from 21 percent. 
+- candidate: biden
+  topic: corporate-tax-rate
+  link: https://nypost.com/2019/07/05/biden-wants-to-raise-the-corporate-tax-rate-back-to-obama-era/
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.  
+- candidate: bullock
+  topic: corporate-tax-rate
+  link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
+- candidate: bullock
   topic: individual-tax-rates
-  link:
-  plan: Cheesy feet caerphilly edam. Blue castello caerphilly danish fontina pepper jack caerphilly rubber cheese red leicester cheese and wine. Feta fromage bocconcini fromage fondue jarlsberg lancashire red leicester. Gouda queso cut the cheese.
-- candidate: trump
+  link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
+  plan: Reverse the Tax Cuts and Jobs Act tax cuts for the wealthy.
+- candidate: bullock
+  topic: cap-gains-dividends
+  link: https://www.politico.com/story/2019/07/17/steve-bullock-politico-interview-1418071
+  plan: Tax capital gains at the same rate as ordinary income. 
+- candidate: sanders
+  topic: corporate-tax-rate
+  link: https://thehill.com/policy/finance/467549-2020-dems-set-sights-on-corporate-tax-hike
+  plan: Raise the corporate tax rate to 35 percent, up from the 21 percent.
+- candidate: sanders
+  topic: corporate-expensing
+  link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
+  plan: Transition to economic depreciation for all investments. 
+- candidate: klobuchar
   topic: individual-tax-rates
-  link: https://taxfoundation.org
-  plan: Swiss monterey jack dolcelatte. Blue castello squirty cheese swiss edam hard cheese cheese on toast port-salut ricotta. Croque monsieur fromage bocconcini goat cream cheese brie halloumi cheeseburger. Ricotta cheese slices lancashire emmental edam boursin port-salut cottage cheese. Smelly cheese airedale taleggio.
-- candidate: trump
-  topic: itemized-deductions
-  link: https://taxfoundation.org
-  plan: Swiss monterey jack dolcelatte. Blue castello squirty cheese swiss edam hard cheese cheese on toast port-salut ricotta. Croque monsieur fromage bocconcini goat cream cheese brie halloumi cheeseburger. Ricotta cheese slices lancashire emmental edam boursin port-salut cottage cheese. Smelly cheese airedale taleggio.
+  link: https://www.politico.com/news/2019/10/25/klobuchar-community-college-pell-grants-057678
+  plan: Require taxpayers earning more than $1 million to pay at least a 30 percent minimun tax rate.
+- candidate: klobuchar
+  topic: cap-gains-dividends
+  link: https://www.politico.com/news/2019/10/25/klobuchar-community-college-pell-grants-057678
+  plan: Raise capital gains and dividends tax rates on taxpayers in the two highest income tax brackets.
