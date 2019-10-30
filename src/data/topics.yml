@@ -42,3 +42,8 @@
   name: Other Taxes
   category: other
   description:
+- id: wealth-tax
+  name: Wealth Tax
+  category: individual
+  description:
+    
