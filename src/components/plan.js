@@ -3,10 +3,31 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import topics from '../generatedData/topics.json';
+import Images from '../images/Images';
 
 const StyledPlan = styled.div`
   display: grid;
-  grid-template-columns: minmax(150px, 20%) 1fr;
+  grid-gap: 1rem;
+  grid-template-columns: minmax(120px, 20%) 1fr;
+`;
+
+const CandidateContainer = styled.div`
+  align-content: center;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template: repeat(2, auto) / auto;
+  justify-content: center;
+
+  h3 {
+    margin: 0;
+    text-align: center;
+  }
+`;
+
+const StyledImage = styled.img`
+  border-radius: 50%;
+  max-width: 150px;
+  width: 100%;
 `;
 
 const TopicsList = styled.ul`
@@ -38,7 +59,15 @@ const ReadMore = styled.a`
 
 const Plan = ({ candidate, plans }) => (
   <StyledPlan>
-    <div>{candidate.name}</div>
+    <CandidateContainer>
+      {Images[candidate.id] ? (
+        <StyledImage
+          src={Images[candidate.id]}
+          alt={`Portrait of ${candidate.name}`}
+        />
+      ) : null}
+      <h3>{candidate.name}</h3>
+    </CandidateContainer>
     {plans.length ? (
       <TopicsList>
         {plans

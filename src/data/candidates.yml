@@ -49,3 +49,12 @@
 - id: trump
   name: Donald J. Trump
   running: true
+- id: castro
+  name: Julián Castro
+  running: true
+- id: bennet
+  name: Michael Bennet
+  running: true
+- id: bullock
+  name: Steve Bullock
+  running: true     
