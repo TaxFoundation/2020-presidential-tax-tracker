@@ -70,35 +70,36 @@ const Candidate = ({ candidate, plans }) => (
     </CandidateContainer>
     {plans.length ? (
       <TopicsList>
-        {plans
-          .sort(
-            (a, b) =>
-              topics.find(t => t.id === a.topic).order >
-              topics.find(t => t.id === b.topic).order
-          )
-          .map(plan =>
-            topics
-              .filter(t => t.id === plan.topic)
-              .map(topic => (
-                <Topic key={`${candidate.id}-${topic.id}`}>
-                  <TopicHeading>{topic.name}</TopicHeading>
-                  {plan.plan.split(/\n/).map((s, i) => (
-                    <TopicDescription key={`${candidate.id}-${topic.id}-p${i}`}>
-                      {s}
-                    </TopicDescription>
+        {topics.map(
+          topic =>
+            plans.some(p => p.topic === topic.id) && (
+              <Topic key={`${candidate.id}-${topic.id}`}>
+                <TopicHeading>{topic.name}</TopicHeading>
+                {plans
+                  .filter(p => p.topic === topic.id)
+                  .map(plan => (
+                    <>
+                      {plan.plan.split(/\n/).map((s, i) => (
+                        <TopicDescription
+                          key={`${candidate.id}-${topic.id}-p${i}`}
+                        >
+                          {s}
+                        </TopicDescription>
+                      ))}
+                      {plan.link && plan.link !== '' && (
+                        <ReadMore
+                          href={plan.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More
+                        </ReadMore>
+                      )}
+                    </>
                   ))}
-                  {plan.link && plan.link !== '' && (
-                    <ReadMore
-                      href={plan.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Read More
-                    </ReadMore>
-                  )}
-                </Topic>
-              ))
-          )}
+              </Topic>
+            )
+        )}
       </TopicsList>
     ) : (
       <p>Sorry, no plans match these topics for this candidate.</p>
