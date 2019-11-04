@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import topics from '../generatedData/topics.json';
 import Images from '../images/Images';
 
-const StyledPlan = styled.div`
+const StyledCandidate = styled.div`
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: minmax(120px, 20%) 1fr;
@@ -57,8 +57,8 @@ const ReadMore = styled.a`
   text-decoration: none;
 `;
 
-const Plan = ({ candidate, plans }) => (
-  <StyledPlan>
+const Candidate = ({ candidate, plans }) => (
+  <StyledCandidate>
     <CandidateContainer>
       {Images[candidate.id] ? (
         <StyledImage
@@ -103,12 +103,12 @@ const Plan = ({ candidate, plans }) => (
     ) : (
       <p>Sorry, no plans match these topics for this candidate.</p>
     )}
-  </StyledPlan>
+  </StyledCandidate>
 );
 
-export default Plan;
+export default Candidate;
 
-Plan.propTypes = {
+Candidate.propTypes = {
   candidate: PropTypes.object,
   plans: PropTypes.arrayOf(PropTypes.object),
 };

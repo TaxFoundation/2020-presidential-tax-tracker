@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { Context } from '../state/reducer';
-import Plan from './plan';
+import Candidate from './candidate';
 
 const Container = styled.div`
   background-color: ${props => props.theme.white};
@@ -20,7 +20,7 @@ const Section = styled.div`
   }
 `;
 
-const Plans = ({ candidates, plans }) => {
+const Candidates = ({ candidates, plans }) => {
   const { data } = useContext(Context);
   const activePlans = plans.filter(plan => data[plan.topic]);
   return (
@@ -29,7 +29,7 @@ const Plans = ({ candidates, plans }) => {
         candidate =>
           data[candidate.id] && (
             <Section key={`${candidate.id}-plans`}>
-              <Plan
+              <Candidate
                 candidate={candidate}
                 plans={activePlans.filter(
                   plan => plan.candidate === candidate.id
@@ -42,9 +42,9 @@ const Plans = ({ candidates, plans }) => {
   );
 };
 
-export default Plans;
+export default Candidates;
 
-Plans.propTypes = {
+Candidates.propTypes = {
   candidates: PropTypes.arrayOf(PropTypes.object),
   plans: PropTypes.arrayOf(PropTypes.object),
 };
