@@ -82,8 +82,10 @@ const Plan = ({ candidate, plans }) => (
               .map(topic => (
                 <Topic key={`${candidate.id}-${topic.id}`}>
                   <TopicHeading>{topic.name}</TopicHeading>
-                  {plan.plan.split(/\n/).map(s => (
-                    <TopicDescription>{s}</TopicDescription>
+                  {plan.plan.split(/\n/).map((s, i) => (
+                    <TopicDescription key={`${candidate.id}-${topic.id}-p${i}`}>
+                      {s}
+                    </TopicDescription>
                   ))}
                   {plan.link && plan.link !== '' && (
                     <ReadMore
