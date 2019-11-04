@@ -1,21 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Candidate from './candidate';
-import { StyledUnorderedList, StyledListItem } from './list';
+import CandidateSelect from './candidateSelect';
+import { StyledUnorderedList, StyledListItem } from '../list';
 
-const Candidates = ({ candidates }) => (
+const CandidatesSelect = ({ candidates }) => (
   <StyledUnorderedList>
     {candidates.map(candidate => (
       <StyledListItem key={`${candidate.id}-select`}>
-        <Candidate candidate={candidate} />
+        <CandidateSelect candidate={candidate} />
       </StyledListItem>
     ))}
   </StyledUnorderedList>
 );
 
-Candidates.propTypes = {
+CandidatesSelect.propTypes = {
   candidates: PropTypes.array,
 };
 
-export default Candidates;
+export default CandidatesSelect;

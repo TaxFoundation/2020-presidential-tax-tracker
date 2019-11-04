@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Button from './button';
+import Button from '../button';
 
-const Candidate = ({ candidate }) => (
+const CandidateSelect = ({ candidate }) => (
   <Button id={candidate.id}>{candidate.name}</Button>
 );
 
-Candidate.propTypes = {
+CandidateSelect.propTypes = {
   candidate: PropTypes.object,
 };
 
-export default Candidate;
+export default CandidateSelect;
