@@ -8,10 +8,13 @@ import Images from '../images/Images';
 const StyledCandidate = styled.div`
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: minmax(120px, 20%) 1fr;
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: minmax(120px, 20%) 1fr;
+  }
 `;
 
-const CandidateContainer = styled.div`
+const Portrait = styled.div`
   align-content: center;
   display: grid;
   grid-gap: 0.5rem;
@@ -59,7 +62,7 @@ const ReadMore = styled.a`
 
 const Candidate = ({ candidate, plans }) => (
   <StyledCandidate>
-    <CandidateContainer>
+    <Portrait>
       {Images[candidate.id] ? (
         <StyledImage
           src={Images[candidate.id]}
@@ -67,7 +70,7 @@ const Candidate = ({ candidate, plans }) => (
         />
       ) : null}
       <h3>{candidate.name}</h3>
-    </CandidateContainer>
+    </Portrait>
     {plans.length ? (
       <TopicsList>
         {topics.map(
