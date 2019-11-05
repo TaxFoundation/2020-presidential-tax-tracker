@@ -4,7 +4,7 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { Provider } from './state/reducer';
 import Theme from './Theme';
 import Selection from './components/selection';
-import Plans from './components/plans';
+import Candidates from './components/candidates';
 import candidates from './generatedData/candidates';
 import topics from './generatedData/topics';
 import plans from './generatedData/plans';
@@ -30,7 +30,7 @@ function App() {
       <Provider>
         <GlobalStyle />
         <Selection candidates={candidates} topics={topics} />
-        <Plans candidates={candidates} topics={topics} plans={plans} />
+        <Candidates candidates={candidates} topics={topics} plans={plans} />
       </Provider>
     </ThemeProvider>
   );

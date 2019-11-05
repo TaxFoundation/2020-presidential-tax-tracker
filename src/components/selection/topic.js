@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Button from './button';
+import Button from '../ui/button';
 
 const Topic = ({ topic }) => <Button id={topic.id}>{topic.name}</Button>;
 

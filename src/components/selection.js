@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Candidates from './candidates';
-import Topics from './topics';
+import CandidatesSelect from './selection/candidatesSelect';
+import Topics from './selection/topics';
 
 const Container = styled.div`
   background-color: ${props => props.theme.white};
@@ -30,7 +30,7 @@ const Selection = ({ candidates, topics }) => (
   <Container>
     <Section>
       <SectionHeading>Candidates</SectionHeading>
-      <Candidates candidates={candidates} />
+      <CandidatesSelect candidates={candidates} />
     </Section>
     <Section>
       <SectionHeading>Topics</SectionHeading>

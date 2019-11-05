@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Topic from './topic';
-import { StyledUnorderedList, StyledListItem } from './list';
+import { StyledUnorderedList, StyledListItem } from '../ui/list';
 
 const Topics = ({ topics }) => (
   <StyledUnorderedList>
