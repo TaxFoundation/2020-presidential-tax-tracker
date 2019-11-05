@@ -33,6 +33,12 @@ const StyledImage = styled.img`
   width: 100%;
 `;
 
+const ParticularPlan = styled.div`
+  border-left: 2px solid ${props => props.theme.tfBlue};
+  margin: 0.75rem 0;
+  padding-left: 1rem;
+`;
+
 const TopicsList = styled.ul`
   list-style: none;
   margin: 0;
@@ -81,7 +87,7 @@ const Candidate = ({ candidate, plans }) => (
                 {plans
                   .filter(p => p.topic === topic.id)
                   .map(plan => (
-                    <>
+                    <ParticularPlan>
                       {plan.plan.split(/\n/).map((s, i) => (
                         <TopicDescription
                           key={`${candidate.id}-${topic.id}-p${i}`}
@@ -98,7 +104,7 @@ const Candidate = ({ candidate, plans }) => (
                           Read More
                         </ReadMore>
                       )}
-                    </>
+                    </ParticularPlan>
                   ))}
               </Topic>
             )
