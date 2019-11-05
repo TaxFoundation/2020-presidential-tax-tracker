@@ -21,10 +21,6 @@ const Portrait = styled.div`
   grid-template: repeat(2, auto) / 1fr;
   justify-content: center;
 
-  img {
-    margin: 0 auto;
-  }
-
   h3 {
     margin: 0;
     text-align: center;
@@ -33,6 +29,8 @@ const Portrait = styled.div`
 
 const StyledImage = styled.img`
   border-radius: 50%;
+  filter: ${props => (props.active ? 'none' : 'grayscale(100%)')};
+  margin: 0 auto;
   max-width: 150px;
   width: 100%;
 `;
@@ -77,6 +75,7 @@ const Candidate = ({ candidate, plans }) => (
         <StyledImage
           src={Images[candidate.id]}
           alt={`Portrait of ${candidate.name}`}
+          active={candidate.running}
         />
       ) : null}
       <h3>{`${candidate.firstName} ${candidate.lastName}`}</h3>
