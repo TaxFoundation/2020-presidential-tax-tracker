@@ -30,7 +30,7 @@
   running: true
 - id: beto
   name: Beto O’Rourke
-  running: true
+  running: false
 - id: sanders
   name: Bernie Sanders
   running: true
