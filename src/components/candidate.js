@@ -18,8 +18,12 @@ const Portrait = styled.div`
   align-content: center;
   display: grid;
   grid-gap: 0.5rem;
-  grid-template: repeat(2, auto) / auto;
+  grid-template: repeat(2, auto) / 1fr;
   justify-content: center;
+
+  img {
+    margin: 0 auto;
+  }
 
   h3 {
     margin: 0;

@@ -16,6 +16,9 @@ import sanford from './sanford.jpg';
 import sestak from './sestak.jpg';
 import steyer from './steyer.jpg';
 import trump from './trump.jpg';
+import warren from './warren.jpg';
+import williamson from './williamson.jpg';
+import yang from './yang.jpg';
 
 const Images = {
   bennet,
@@ -36,6 +39,9 @@ const Images = {
   sestak,
   steyer,
   trump,
+  warren,
+  williamson,
+  yang,
 };
 
 export default Images;
