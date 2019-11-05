@@ -25,19 +25,21 @@ const Candidates = ({ candidates, plans }) => {
   const activePlans = plans.filter(plan => data[plan.topic]);
   return (
     <Container>
-      {candidates.map(
-        candidate =>
-          data[candidate.id] && (
-            <Section key={`${candidate.id}-plans`}>
-              <Candidate
-                candidate={candidate}
-                plans={activePlans.filter(
-                  plan => plan.candidate === candidate.id
-                )}
-              />
-            </Section>
-          )
-      )}
+      {candidates
+        .sort((a, b) => a.lastName > b.lastName)
+        .map(
+          candidate =>
+            data[candidate.id] && (
+              <Section key={`${candidate.id}-plans`}>
+                <Candidate
+                  candidate={candidate}
+                  plans={activePlans.filter(
+                    plan => plan.candidate === candidate.id
+                  )}
+                />
+              </Section>
+            )
+        )}
     </Container>
   );
 };

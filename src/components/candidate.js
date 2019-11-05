@@ -79,7 +79,7 @@ const Candidate = ({ candidate, plans }) => (
           alt={`Portrait of ${candidate.name}`}
         />
       ) : null}
-      <h3>{candidate.name}</h3>
+      <h3>{`${candidate.firstName} ${candidate.lastName}`}</h3>
     </Portrait>
     {plans.length ? (
       <TopicsList>

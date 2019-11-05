@@ -1,60 +1,80 @@
 - id: biden
-  name: Joe Biden
+  firstName: Joe
+  lastName: Biden
   running: true
 - id: booker
-  name: Cory Booker
+  firstName: Cory
+  lastName: Booker
   running: true
 - id: buttigieg
-  name: Pete Buttigieg
+  firstName: Pete
+  lastName: Buttigieg
   running: true
 - id: delaney
-  name: John Delaney
+  firstName: John
+  lastName: Delaney
   running: true
 - id: gabbard
-  name: Tulsi Gabbard
+  firstName: Tulsi
+  lastName: Gabbard
   running: true
 - id: gillibrand
-  name: Kirsten Gillibrand
+  firstName: Kirsten
+  lastName: Gillibrand
   running: false
 - id: harris
-  name: Kamala Harris
+  firstName: Kamala
+  lastName: Harris
   running: true
 - id: hickenlooper
-  name: John Hickenlooper
+  firstName: John
+  lastName: Hickenlooper
   running: false
 - id: inslee
-  name: Jay Inslee
+  firstName: Jay
+  lastName: Inslee
   running: false
 - id: klobuchar
-  name: Amy Klobuchar
+  firstName: Amy
+  lastName: Klobuchar
   running: true
 - id: beto
-  name: Beto O’Rourke
+  firstName: Beto
+  lastName: O’Rourke
   running: false
 - id: sanders
-  name: Bernie Sanders
+  firstName: Bernie
+  lastName: Sanders
   running: true
 - id: swalwell
-  name: Eric Swalwell
+  firstName: Eric
+  lastName: Swalwell
   running: false
 - id: warren
-  name: Elizabeth Warren
+  firstName: Elizabeth
+  lastName: Warren
   running: true
 - id: williamson
-  name: Marianne Williamson
+  firstName: Marianne
+  lastName: Williamson
   running: true
 - id: yang
-  name: Andrew Yang
+  firstName: Andrew
+  lastName: Yang
   running: true
 - id: trump
-  name: Donald J. Trump
+  firstName: Donald
+  lastName: Trump
   running: true
 - id: castro
-  name: Julián Castro
+  firstName: Julián
+  lastName: Castro
   running: true
 - id: bennet
-  name: Michael Bennet
+  firstName: Michael
+  lastName: Bennet
   running: true
 - id: bullock
-  name: Steve Bullock
-  running: true     
+  firstName: Steve
+  lastName: Bullock
+  running: true

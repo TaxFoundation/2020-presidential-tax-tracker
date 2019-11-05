@@ -6,11 +6,13 @@ import { StyledUnorderedList, StyledListItem } from '../ui/list';
 
 const CandidatesSelect = ({ candidates }) => (
   <StyledUnorderedList>
-    {candidates.map(candidate => (
-      <StyledListItem key={`${candidate.id}-select`}>
-        <CandidateSelect candidate={candidate} />
-      </StyledListItem>
-    ))}
+    {candidates
+      .sort((a, b) => a.lastName > b.lastName)
+      .map(candidate => (
+        <StyledListItem key={`${candidate.id}-select`}>
+          <CandidateSelect candidate={candidate} />
+        </StyledListItem>
+      ))}
   </StyledUnorderedList>
 );
 
