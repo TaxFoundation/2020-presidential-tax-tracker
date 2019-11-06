@@ -68,56 +68,60 @@ const ReadMore = styled.a`
   text-decoration: none;
 `;
 
-const Candidate = ({ candidate, plans }) => (
-  <StyledCandidate>
-    <Portrait>
-      {Images[candidate.id] ? (
-        <StyledImage
-          src={Images[candidate.id]}
-          alt={`Portrait of ${candidate.name}`}
-          active={candidate.running}
-        />
-      ) : null}
-      <h3>{`${candidate.firstName} ${candidate.lastName}`}</h3>
-    </Portrait>
-    {plans.length ? (
-      <TopicsList>
-        {topics.map(
-          topic =>
-            plans.some(p => p.topic === topic.id) && (
-              <Topic key={`${candidate.id}-${topic.id}`}>
-                <TopicHeading>{topic.name}</TopicHeading>
-                {plans
-                  .filter(p => p.topic === topic.id)
-                  .map(plan => (
-                    <ParticularPlan>
-                      {plan.plan.split(/\n/).map((s, i) => (
-                        <TopicDescription
-                          key={`${candidate.id}-${topic.id}-p${i}`}
-                        >
-                          {s}
-                        </TopicDescription>
-                      ))}
-                      {plan.link && plan.link !== '' && (
-                        <ReadMore
-                          href={plan.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Read More
-                        </ReadMore>
-                      )}
-                    </ParticularPlan>
-                  ))}
-              </Topic>
-            )
-        )}
-      </TopicsList>
-    ) : (
-      <p>Sorry, no plans match these topics for this candidate.</p>
-    )}
-  </StyledCandidate>
-);
+const Candidate = ({ candidate, plans }) => {
+  const image = Images.find(img => img.id === candidate.id);
+  const attribution = `Portrait of ${candidate.firstName} ${candidate.lastName} by ${image.attribution}`;
+  return (
+    <StyledCandidate>
+      <Portrait>
+        {image ? (
+          <StyledImage
+            src={image.image}
+            alt={attribution}
+            active={candidate.running}
+          />
+        ) : null}
+        <h3>{`${candidate.firstName} ${candidate.lastName}`}</h3>
+      </Portrait>
+      {plans.length ? (
+        <TopicsList>
+          {topics.map(
+            topic =>
+              plans.some(p => p.topic === topic.id) && (
+                <Topic key={`${candidate.id}-${topic.id}`}>
+                  <TopicHeading>{topic.name}</TopicHeading>
+                  {plans
+                    .filter(p => p.topic === topic.id)
+                    .map(plan => (
+                      <ParticularPlan>
+                        {plan.plan.split(/\n/).map((s, i) => (
+                          <TopicDescription
+                            key={`${candidate.id}-${topic.id}-p${i}`}
+                          >
+                            {s}
+                          </TopicDescription>
+                        ))}
+                        {plan.link && plan.link !== '' && (
+                          <ReadMore
+                            href={plan.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Read More
+                          </ReadMore>
+                        )}
+                      </ParticularPlan>
+                    ))}
+                </Topic>
+              )
+          )}
+        </TopicsList>
+      ) : (
+        <p>Sorry, no plans match these topics for this candidate.</p>
+      )}
+    </StyledCandidate>
+  );
+};
 
 export default Candidate;
 
