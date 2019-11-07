@@ -32,7 +32,7 @@
   plan: Return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
 - candidate: warren
   topic: wealth-tax
-  link: hhttps://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf 
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/  
   plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 6 percent tax on every dollar of net worth above $1 billion.
 - candidate: castro
   topic: individual-tax-rates
@@ -49,7 +49,11 @@
 - candidate: buttigieg
   topic: wealth-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
-  plan: Create a wealth tax and a financial transaction tax.
+  plan: Create a wealth tax.
+- candidate: buttigieg
+  topic: wealth-tax
+  link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
+  plan: Create a financial transaction tax.
 - candidate: delaney
   topic: other-tax
   link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
@@ -204,25 +208,29 @@
   plan: Raise capital gains and dividends tax rates on taxpayers in the two highest income tax brackets.
 - candidate: warren
   topic: corporate-tax-rate
-  link: https://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
   plan: Raise the corporate tax rate to 35 percent, up from 21 percent.
 - candidate: warren
   topic: corporate-expensing
-  link: https://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
   plan: Eliminate the current system of accelerated cost recovery for large businesses.
 - candidate: warren
   topic: corporate-international
-  link: https://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
   plan: Institute a country-by-country minimum tax on foreign earnings of 35 percent without permitting deferral.
 - candidate: warren
   topic: cap-gains-dividends
-  link: https://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
   plan: Tax capital gains at the same rate as ordinary income for the top 1 percent of households.
 - candidate: warren
   topic: cap-gains-dividends
-  link: https://assets.ctfassets.net/4ubxbgy9463z/27ao9rfB6MbQgGmaXK4eGc/d06d5a224665324432c6155199afe0bf/Medicare_for_All_Revenue_Letter___Appendix.pdf
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
   plan: Establish mark-to-market taxation of capital for the top 1 percent of households.
 - candidate: warren
   topic: other-tax
   link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/ 
-  plan: Medicare for All funding proposal.      
+  plan: Medicare for All funding proposal.
+- candidate: warren
+  topic: other-tax
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/ 
+  plan: Create an Emplpoyer Medicare Contribution.        
