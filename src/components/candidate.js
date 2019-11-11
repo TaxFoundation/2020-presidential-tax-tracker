@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import topics from '../generatedData/topics.json';
 import Images from '../images/Images';
+import ExternalLink from '../images/external-link.svg';
 
 const StyledCandidate = styled.div`
   display: grid;
@@ -66,6 +67,16 @@ const TopicDescription = styled.p`
 const ReadMore = styled.a`
   color: ${props => props.theme.tfBlue};
   text-decoration: none;
+
+  &::after {
+    background-image: ${props =>
+      props.href.includes('taxfoundation.org') ? '' : `url(${ExternalLink})`};
+    content: '';
+    display: inline-block;
+    height: 0.8rem;
+    margin-left: 0.5rem;
+    width: 0.8rem;
+  }
 `;
 
 const Candidate = ({ candidate, plans }) => {
