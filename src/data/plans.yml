@@ -32,8 +32,8 @@
   plan: Return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
 - candidate: warren
   topic: wealth-tax
-  link: https://www.warren.senate.gov/newsroom/press-releases/senator-warren-unveils-proposal-to-tax-wealth-of-ultra-rich-americans
-  plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 3 percent tax on every dollar of net worth above $1 billion.
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/  
+  plan: Create a wealth tax in which households would pay an annual 2 percent tax on every dollar of net worth above $50 million and a 6 percent tax on every dollar of net worth above $1 billion.
 - candidate: castro
   topic: individual-tax-rates
   link: https://www.elle.com/culture/movies-tv/a27073125/julian-castro-presidential-election-2020-issues/
@@ -49,7 +49,11 @@
 - candidate: buttigieg
   topic: wealth-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
-  plan: Create a wealth tax and a financial transaction tax.
+  plan: Create a wealth tax.
+- candidate: buttigieg
+  topic: wealth-tax
+  link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
+  plan: Create a financial transaction tax.
 - candidate: delaney
   topic: other-tax
   link: https://www.cnn.com/2019/05/23/politics/john-delaney-climate-plan/index.html
@@ -93,11 +97,7 @@
 - candidate: sanders
   topic: cap-gains-dividends
   link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Tax capital gains at the same rate as ordinary income for household income above $250,000.
-- candidate: warren
-  topic: other-tax
-  link: https://www.wral.com/day-after-debate-elizabeth-warrens-campaign-says-its-reviewing-other-revenue-options-for-medicare-for-all/18702946/
-  plan: Previously expressed support for Senator Sanders' plan to fund Medicare for All but is now reviewing other revenue options.  
+  plan: Tax capital gains at the same rate as ordinary income for household income above $250,000. 
 - candidate: klobuchar
   topic: corporate-tax-rate
   link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
@@ -193,7 +193,7 @@
 - candidate: sanders
   topic: corporate-tax-rate
   link: https://thehill.com/policy/finance/467549-2020-dems-set-sights-on-corporate-tax-hike
-  plan: Raise the corporate tax rate to 35 percent, up from the 21 percent.
+  plan: Raise the corporate tax rate to 35 percent, up from 21 percent.
 - candidate: sanders
   topic: corporate-expensing
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
@@ -206,3 +206,31 @@
   topic: cap-gains-dividends
   link: https://www.politico.com/news/2019/10/25/klobuchar-community-college-pell-grants-057678
   plan: Raise capital gains and dividends tax rates on taxpayers in the two highest income tax brackets.
+- candidate: warren
+  topic: corporate-tax-rate
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
+  plan: Raise the corporate tax rate to 35 percent, up from 21 percent.
+- candidate: warren
+  topic: corporate-expensing
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
+  plan: Eliminate the current system of accelerated cost recovery for large businesses.
+- candidate: warren
+  topic: corporate-international
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
+  plan: Institute a country-by-country minimum tax on foreign earnings of 35 percent without permitting deferral.
+- candidate: warren
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
+  plan: Tax capital gains at the same rate as ordinary income for the top 1 percent of households.
+- candidate: warren
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/
+  plan: Establish mark-to-market taxation of capital for the top 1 percent of households.
+- candidate: warren
+  topic: other-tax
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/ 
+  plan: Medicare for All funding proposal.
+- candidate: warren
+  topic: other-tax
+  link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/ 
+  plan: Create an Emplpoyer Medicare Contribution.        
