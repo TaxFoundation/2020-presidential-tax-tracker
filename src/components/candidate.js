@@ -81,7 +81,9 @@ const ReadMore = styled.a`
 
 const Candidate = ({ candidate, plans }) => {
   const image = Images.find(img => img.id === candidate.id);
-  const attribution = `Portrait of ${candidate.firstName} ${candidate.lastName} by ${image.attribution}`;
+  const attribution =
+    image &&
+    `Portrait of ${candidate.firstName} ${candidate.lastName} by ${image.attribution}`;
   return (
     <StyledCandidate>
       <Portrait>
@@ -103,11 +105,13 @@ const Candidate = ({ candidate, plans }) => {
                   <TopicHeading>{topic.name}</TopicHeading>
                   {plans
                     .filter(p => p.topic === topic.id)
-                    .map(plan => (
-                      <ParticularPlan>
-                        {plan.plan.split(/\n/).map((s, i) => (
+                    .map((plan, i) => (
+                      <ParticularPlan
+                        key={`${candidate.id}-${topic.id}-plan${i}`}
+                      >
+                        {plan.plan.split(/\n/).map((s, j) => (
                           <TopicDescription
-                            key={`${candidate.id}-${topic.id}-p${i}`}
+                            key={`${candidate.id}-${topic.id}-plan${i}-p${j}`}
                           >
                             {s}
                           </TopicDescription>
