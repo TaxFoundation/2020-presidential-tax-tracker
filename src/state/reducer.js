@@ -31,7 +31,8 @@ const reducer = (state, action) => {
       return toggleSubset(topics, state);
     }
     default: {
-      return { ...state, [action.id]: action.value };
+      const newValue = !state[action.id];
+      return { ...state, [action.id]: newValue };
     }
   }
 };
