@@ -26,7 +26,15 @@ const Candidates = ({ candidates, plans }) => {
   return (
     <Container>
       {candidates
-        .sort((a, b) => a.lastName > b.lastName)
+        .sort((a, b) => {
+          if (a.lastName > b.lastName) {
+            return 1;
+          }
+          if (a.lastName < b.lastName) {
+            return -1;
+          }
+          return 0;
+        })
         .map(
           candidate =>
             data[candidate.id] && (
