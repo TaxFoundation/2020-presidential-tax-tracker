@@ -5,19 +5,19 @@
 - id: booker
   firstName: Cory
   lastName: Booker
-  running: true
+  running: false
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
-  running: true
+  running: false
 - id: delaney
   firstName: John
   lastName: Delaney
-  running: true
+  running: false
 - id: gabbard
   firstName: Tulsi
   lastName: Gabbard
-  running: true
+  running: false
 - id: gillibrand
   firstName: Kirsten
   lastName: Gillibrand
@@ -25,7 +25,7 @@
 - id: harris
   firstName: Kamala
   lastName: Harris
-  running: true
+  running: false
 - id: hickenlooper
   firstName: John
   lastName: Hickenlooper
@@ -37,7 +37,7 @@
 - id: klobuchar
   firstName: Amy
   lastName: Klobuchar
-  running: true
+  running: false
 - id: beto
   firstName: Beto
   lastName: O’Rourke
@@ -57,24 +57,24 @@
 - id: williamson
   firstName: Marianne
   lastName: Williamson
-  running: true
+  running: false
 - id: yang
   firstName: Andrew
   lastName: Yang
-  running: true
+  running: false
 - id: trump
   firstName: Donald
   lastName: Trump
-  running: true
+  running: false
 - id: castro
   firstName: Julián
   lastName: Castro
-  running: true
+  running: false
 - id: bennet
   firstName: Michael
   lastName: Bennet
-  running: true
+  running: false
 - id: bullock
   firstName: Steve
   lastName: Bullock
-  running: true
+  running: false
