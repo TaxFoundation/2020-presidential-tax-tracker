@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useSpring, animated } from 'react-spring';
+import useComponentSize from '@rehooks/component-size';
 import styled from 'styled-components';
 
 import CandidatesSelect from './selection/candidatesSelect';
@@ -24,12 +26,12 @@ const Toggle = styled.button`
 `;
 
 const Selections = styled.div`
-  display: ${props => (props.active ? 'grid' : 'none')};
+  display: grid;
   grid-gap: 1rem;
   padding: 1rem;
 
   @media screen and (min-width: 800px) {
-    display: ${props => (props.active ? 'none' : 'grid')};
+    /* display: ${props => (props.active ? 'none' : 'grid')}; */
     grid-template: auto / repeat(2, 1fr);
   }
 `;
@@ -43,23 +45,42 @@ const SectionHeading = styled.h2`
 
 const Selection = ({ candidates, topics }) => {
   const [showSelections, setShowSelections] = useState(false);
+  const containerRef = useRef(null);
+  const selectionsRef = useRef(null);
+  const { width } = useComponentSize(containerRef);
+  const { height } = useComponentSize(selectionsRef);
+
+  useEffect(() => {
+    if (width >= 800) setShowSelections(true);
+  }, [width]);
+
+  const handleToggle = () => setShowSelections(!showSelections);
+
+  const props = useSpring({
+    height: showSelections ? height : 0,
+  });
 
   return (
-    <Container>
-      <Toggle onClick={() => setShowSelections(!showSelections)}>
-        Toggle Candidate and Topic Filters
-      </Toggle>
-
-      <Selections active={showSelections}>
-        <section>
-          <SectionHeading>Candidates</SectionHeading>
-          <CandidatesSelect candidates={candidates} />
-        </section>
-        <section>
-          <SectionHeading>Topics</SectionHeading>
-          <Topics topics={topics} />
-        </section>
-      </Selections>
+    <Container ref={containerRef}>
+      <Toggle onClick={handleToggle}>Toggle Candidate and Topic Filters</Toggle>
+      <animated.div
+        style={{
+          ...props,
+          overflow: 'hidden',
+          position: 'relative',
+        }}
+      >
+        <Selections ref={selectionsRef}>
+          <section>
+            <SectionHeading>Candidates</SectionHeading>
+            <CandidatesSelect candidates={candidates} />
+          </section>
+          <section>
+            <SectionHeading>Topics</SectionHeading>
+            <Topics topics={topics} />
+          </section>
+        </Selections>
+      </animated.div>
     </Container>
   );
 };
