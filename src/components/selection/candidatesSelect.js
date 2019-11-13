@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import CandidateSelect from './candidateSelect';
+import Button from '../ui/button';
 import { StyledUnorderedList, StyledListItem } from '../ui/list';
 
 const CandidatesSelect = ({ candidates }) => (
@@ -13,6 +14,9 @@ const CandidatesSelect = ({ candidates }) => (
           <CandidateSelect candidate={candidate} />
         </StyledListItem>
       ))}
+    <StyledListItem>
+      <Button id="toggleCandidates">Select / Deselect All</Button>
+    </StyledListItem>
   </StyledUnorderedList>
 );
 

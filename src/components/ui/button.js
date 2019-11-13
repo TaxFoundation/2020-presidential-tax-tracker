@@ -14,7 +14,7 @@ const StyledButton = styled.button`
     props.active ? props.theme.tfBlue : props.theme.white};
   color: ${props => (props.active ? props.theme.white : props.theme.color)};
   cursor: pointer;
-  font-family: ${props => props.theme.fontFamilies.lato};}
+  font-family: ${props => props.theme.fontFamilies.lato};
   font-size: 14px;
   padding: 4px;
 
@@ -27,11 +27,14 @@ const StyledButton = styled.button`
 
 const Button = ({ id, children }) => {
   const { data, updateData } = useContext(Context);
-  const active = data[id];
+  const directUpdate = !!data[id];
+
   return (
     <StyledButton
-      active={active}
-      onClick={() => updateData({ id, value: !active })}
+      active={directUpdate ? data[id] : false}
+      onClick={() =>
+        directUpdate ? updateData({ id, value: !data[id] }) : updateData({ id })
+      }
     >
       {children}
     </StyledButton>
