@@ -22,10 +22,11 @@ const Button = styled(StyledButton)`
 `;
 
 const Selections = styled.div`
-  display: grid;
+  display: ${props => (props.active ? 'grid' : 'none')};
   grid-gap: 1rem;
 
   @media screen and (min-width: 800px) {
+    display: ${props => (props.active ? 'none' : 'grid')};
     grid-template: auto / repeat(2, 1fr);
   }
 `;
@@ -45,18 +46,17 @@ const Selection = ({ candidates, topics }) => {
       <Button onClick={() => setShowSelections(!showSelections)}>
         Toggle Candidate and Topic Filters
       </Button>
-      {showSelections && (
-        <Selections>
-          <section>
-            <SectionHeading>Candidates</SectionHeading>
-            <CandidatesSelect candidates={candidates} />
-          </section>
-          <section>
-            <SectionHeading>Topics</SectionHeading>
-            <Topics topics={topics} />
-          </section>
-        </Selections>
-      )}
+
+      <Selections active={showSelections}>
+        <section>
+          <SectionHeading>Candidates</SectionHeading>
+          <CandidatesSelect candidates={candidates} />
+        </section>
+        <section>
+          <SectionHeading>Topics</SectionHeading>
+          <Topics topics={topics} />
+        </section>
+      </Selections>
     </Container>
   );
 };
