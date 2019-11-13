@@ -16,11 +16,14 @@ const GlobalStyle = createGlobalStyle`
 
   html,
   body {
-    font-family: ${props => props.theme.fontFamilies.lato};
     font-size: ${props => props.theme.fontSize};
     font-weight: ${props => props.theme.fontWeight};
     height: 100%;
     line-height: 1.6;
+  }
+
+  * {
+    font-family: ${props => props.theme.fontFamilies.lato};
   }
 `;
 

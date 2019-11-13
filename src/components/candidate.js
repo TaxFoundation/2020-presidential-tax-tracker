@@ -7,8 +7,10 @@ import Images from '../images/Images';
 import ExternalLink from '../images/external-link.svg';
 
 const StyledCandidate = styled.div`
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.3);
   display: grid;
   grid-gap: 1rem;
+  padding: 1rem;
 
   @media screen and (min-width: 600px) {
     grid-template-columns: minmax(120px, 20%) 1fr;

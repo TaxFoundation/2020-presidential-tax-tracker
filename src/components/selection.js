@@ -4,26 +4,29 @@ import styled from 'styled-components';
 
 import CandidatesSelect from './selection/candidatesSelect';
 import Topics from './selection/topics';
-import { StyledButton } from './ui/button';
 
 const Container = styled.div`
   background-color: ${props => props.theme.white};
-  border: 1px solid ${props => props.theme.borderColor};
-  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 1rem;
-  padding: 1rem;
   text-align: center;
 `;
 
-const Button = styled(StyledButton)`
-  border: 1px solid ${props => props.theme.tfBlue};
+const Toggle = styled.button`
+  background-color: ${props => props.theme.tfBlue};
+  border: none;
+  color: ${props => props.theme.white};
+  cursor: pointer;
   font-size: 1.2rem;
+  height: 100%;
   padding: 0.5rem 1rem;
+  width: 100%;
 `;
 
 const Selections = styled.div`
   display: ${props => (props.active ? 'grid' : 'none')};
   grid-gap: 1rem;
+  padding: 1rem;
 
   @media screen and (min-width: 800px) {
     display: ${props => (props.active ? 'none' : 'grid')};
@@ -43,9 +46,9 @@ const Selection = ({ candidates, topics }) => {
 
   return (
     <Container>
-      <Button onClick={() => setShowSelections(!showSelections)}>
+      <Toggle onClick={() => setShowSelections(!showSelections)}>
         Toggle Candidate and Topic Filters
-      </Button>
+      </Toggle>
 
       <Selections active={showSelections}>
         <section>

@@ -7,17 +7,8 @@ import Candidate from './candidate';
 
 const Container = styled.div`
   background-color: ${props => props.theme.white};
-  border: 1px solid ${props => props.theme.borderColor};
-  border-radius: 4px;
-`;
-
-const Section = styled.div`
-  border-bottom: 1px solid ${props => props.theme.borderColor};
-  padding: 8px;
-
-  &:last-child {
-    border: 0;
-  }
+  display: grid;
+  grid-gap: 0.5rem;
 `;
 
 const Candidates = ({ candidates, plans }) => {
@@ -38,14 +29,14 @@ const Candidates = ({ candidates, plans }) => {
         .map(
           candidate =>
             data[candidate.id] && (
-              <Section key={`${candidate.id}-plans`}>
+              <section key={`${candidate.id}-plans`}>
                 <Candidate
                   candidate={candidate}
                   plans={activePlans.filter(
                     plan => plan.candidate === candidate.id
                   )}
                 />
-              </Section>
+              </section>
             )
         )}
     </Container>
