@@ -14,6 +14,7 @@ const StyledButton = styled.button`
     props.active ? props.theme.tfBlue : props.theme.white};
   color: ${props => (props.active ? props.theme.white : props.theme.color)};
   cursor: pointer;
+  font-family: ${props => props.theme.fontFamilies.lato};}
   font-size: 14px;
   padding: 4px;
 

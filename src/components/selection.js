@@ -18,6 +18,7 @@ const Container = styled.div`
 const Button = styled(StyledButton)`
   border: 1px solid ${props => props.theme.tfBlue};
   font-size: 1.2rem;
+  padding: 0.5rem 1rem;
 `;
 
 const Selections = styled.div`
@@ -32,7 +33,6 @@ const Selections = styled.div`
 const SectionHeading = styled.h2`
   border-bottom: 1px solid ${props => props.theme.borderColor};
   color: ${props => props.theme.color};
-  font-family: sans-serif;
   margin: 0 0 1rem;
   text-align: center;
 `;
@@ -42,13 +42,8 @@ const Selection = ({ candidates, topics }) => {
 
   return (
     <Container>
-      <Button
-        active={showSelections}
-        onClick={() => setShowSelections(!showSelections)}
-      >
-        {showSelections
-          ? 'Hide Filters'
-          : 'Click to Filter Candidates and Topics'}
+      <Button onClick={() => setShowSelections(!showSelections)}>
+        Toggle Candidate and Topic Filters
       </Button>
       {showSelections && (
         <Selections>
