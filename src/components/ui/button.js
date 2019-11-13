@@ -13,6 +13,7 @@ const StyledButton = styled.button`
   background-color: ${props =>
     props.active ? props.theme.tfBlue : props.theme.white};
   color: ${props => (props.active ? props.theme.white : props.theme.color)};
+  cursor: pointer;
   font-size: 14px;
   padding: 4px;
 
@@ -41,4 +42,4 @@ Button.propTypes = {
   children: PropTypes.any,
 };
 
-export default Button;
+export { Button as default, StyledButton };
