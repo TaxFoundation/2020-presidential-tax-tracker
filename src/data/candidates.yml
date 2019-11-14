@@ -1,113 +1,155 @@
 - id: biden
   firstName: Joe
   lastName: Biden
+  active: true
   running: true
 - id: booker
   firstName: Cory
   lastName: Booker
+  active: false
   running: false
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
+  active: false
   running: false
 - id: delaney
   firstName: John
   lastName: Delaney
+  active: false
   running: false
 - id: gabbard
   firstName: Tulsi
   lastName: Gabbard
+  active: false
   running: false
 - id: gillibrand
   firstName: Kirsten
   lastName: Gillibrand
+  active: false
   running: false
 - id: harris
   firstName: Kamala
   lastName: Harris
+  active: false
   running: false
 - id: hickenlooper
   firstName: John
   lastName: Hickenlooper
+  active: false
   running: false
 - id: inslee
   firstName: Jay
   lastName: Inslee
+  active: false
   running: false
 - id: klobuchar
   firstName: Amy
   lastName: Klobuchar
+  active: false
   running: false
 - id: beto
   firstName: Beto
   lastName: O’Rourke
+  active: false
   running: false
 - id: sanders
   firstName: Bernie
   lastName: Sanders
+  active: true
   running: true
 - id: swalwell
   firstName: Eric
   lastName: Swalwell
+  active: false
   running: false
 - id: warren
   firstName: Elizabeth
   lastName: Warren
+  active: falstruee
   running: true
 - id: williamson
   firstName: Marianne
   lastName: Williamson
+  active: false
   running: false
 - id: yang
   firstName: Andrew
   lastName: Yang
+  active: false
   running: false
 - id: trump
   firstName: Donald
   lastName: Trump
+  active: false
   running: false
 - id: castro
   firstName: Julián
   lastName: Castro
+  active: false
   running: false
 - id: bennet
   firstName: Michael
   lastName: Bennet
+  active: false
   running: false
 - id: bullock
-  name: Steve Bullock
+  firstName: Steve
+  lastName: Bullock
+  active: false
   running: true
 - id: messam
-  name: Wayne Messam
+  firstName: Wayne
+  lastName: Messam
+  active: false
   running: true
 - id: patrick
-  name: Deval Patrick
+  firstName: Deval
+  lastName: Patrick
+  active: false
   running: true
 - id: sestak
-  name: Joe Sestak
+  firstName: Joe
+  lastName: Sestak
+  active: false
   running: true
 - id: steyer
-  name: Tom Steyer
+  firstName: Tom
+  lastName: Steyer
+  active: false
   running: true
 - id: walsh
-  name: Joe Walsh
+  firstName: Joe
+  lastName: Walsh
+  active: false
   running: true
 - id: weld
-  name: William F. Weld
+  firstName: William
+  lastName: Weld
+  active: false
   running: true
 - id: blasio
-  name: Bill de Blasio
+  firstName: Bill
+  lastName: de Blasio
+  active: false
   running: false
 - id: moulton
-  name: Seth Moulton
+  firstName: Seth
+  lastName: Moulton
+  active: false
   running: false
 - id: ojeda
-  name: Richard Ojeda
+  firstName: Richard
+  lastName: Ojeda
+  active: false
   running: false
 - id: ryan
-  name: Tim Ryan
+  firstName: Tim
+  lastName: Ryan
+  active: false
   running: false
 - id: sandford
-  name: Mark Sanford
+  firstName: Mark
+  lastName: Sanford
+  active: false
   running: false
-                                      

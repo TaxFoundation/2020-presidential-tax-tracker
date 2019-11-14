@@ -6,7 +6,7 @@ import topics from '../generatedData/topics.json';
 
 const initialState = {};
 candidates.forEach(
-  candidate => (initialState[candidate.id] = candidate.running)
+  candidate => (initialState[candidate.id] = candidate.active)
 );
 topics.map(topic => (initialState[topic.id] = true));
 

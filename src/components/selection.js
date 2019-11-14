@@ -29,11 +29,6 @@ const Selections = styled.div`
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
-
-  @media screen and (min-width: 800px) {
-    /* display: ${props => (props.active ? 'none' : 'grid')}; */
-    grid-template: auto / repeat(2, 1fr);
-  }
 `;
 
 const SectionHeading = styled.h2`
