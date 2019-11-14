@@ -75,6 +75,39 @@
   lastName: Bennet
   running: false
 - id: bullock
-  firstName: Steve
-  lastName: Bullock
+  name: Steve Bullock
+  running: true
+- id: messam
+  name: Wayne Messam
+  running: true
+- id: patrick
+  name: Deval Patrick
+  running: true
+- id: sestak
+  name: Joe Sestak
+  running: true
+- id: steyer
+  name: Tom Steyer
+  running: true
+- id: walsh
+  name: Joe Walsh
+  running: true
+- id: weld
+  name: William F. Weld
+  running: true
+- id: blasio
+  name: Bill de Blasio
   running: false
+- id: moulton
+  name: Seth Moulton
+  running: false
+- id: ojeda
+  name: Richard Ojeda
+  running: false
+- id: ryan
+  name: Tim Ryan
+  running: false
+- id: sandford
+  name: Mark Sanford
+  running: false
+                                      
