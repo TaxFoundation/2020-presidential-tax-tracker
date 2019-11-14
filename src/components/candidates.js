@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import { Context } from '../state/reducer';
 import Candidate from './candidate';
+import { alphabeticalSort } from '../utilities';
 
 const Container = styled.div`
   background-color: ${props => props.theme.white};
@@ -17,15 +18,7 @@ const Candidates = ({ candidates, plans }) => {
   return (
     <Container>
       {candidates
-        .sort((a, b) => {
-          if (a.lastName > b.lastName) {
-            return 1;
-          }
-          if (a.lastName < b.lastName) {
-            return -1;
-          }
-          return 0;
-        })
+        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))
         .map(
           candidate =>
             data[candidate.id] && (

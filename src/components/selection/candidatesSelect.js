@@ -4,11 +4,12 @@ import PropTypes from 'prop-types';
 import CandidateSelect from './candidateSelect';
 import Button from '../ui/button';
 import { StyledUnorderedList, StyledListItem } from '../ui/list';
+import { alphabeticalSort } from '../../utilities';
 
 const CandidatesSelect = ({ candidates }) => (
   <StyledUnorderedList>
     {candidates
-      .sort((a, b) => a.lastName > b.lastName)
+      .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))
       .map(candidate => (
         <StyledListItem key={`${candidate.id}-select`}>
           <CandidateSelect candidate={candidate} />
