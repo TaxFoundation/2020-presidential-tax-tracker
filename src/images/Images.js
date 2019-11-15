@@ -1,22 +1,31 @@
 import bennet from './bennet.jpg';
 import beto from './beto.jpg';
 import biden from './biden.jpg';
+import bloomberg from './bloomberg.jpg';
 import booker from './booker.jpg';
 import bullock from './bullock.jpg';
 import buttigieg from './buttigieg.jpg';
 import castro from './castro.jpg';
 import delaney from './delaney.jpg';
 import gabbard from './gabbard.jpg';
+import gillibrand from './gillibrand.jpg';
 import harris from './harris.jpg';
+import hickenlooper from './hickenlooper.jpg';
 import klobuchar from './klobuchar.jpg';
+import inslee from './inslee.jpg';
 import messam from './messam.jpg';
+import moulton from './moulton.jpg';
+import ojeda from './ojeda.jpg';
 import ryan from './ryan.jpg';
 import sanders from './sanders.jpg';
 import sanford from './sanford.jpg';
 import sestak from './sestak.jpg';
 import steyer from './steyer.jpg';
+import swalwell from './swalwell.jpg';
 import trump from './trump.jpg';
+import walsh from './walsh.jpg';
 import warren from './warren.jpg';
+import weld from './weld.jpg';
 import williamson from './williamson.jpg';
 import yang from './yang.jpg';
 
@@ -36,6 +45,12 @@ const Images = [
       'https://upload.wikimedia.org/wikipedia/commons/0/0f/Joe_Biden_%2848651036981%29.jpg',
     attribution:
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'bloomberg',
+    image: bloomberg,
+    url: 'https://www.flickr.com/photos/bloombergphilanthropies/29828795984/',
+    attribution: 'Public Domain',
   },
   {
     id: 'booker',
@@ -86,10 +101,34 @@ const Images = [
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
   {
+    id: 'gillibrand',
+    image: gillibrand,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/9/9c/Kirsten_Gillibrand_%2848011267582%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
     id: 'harris',
     image: harris,
     url:
       'https://upload.wikimedia.org/wikipedia/commons/8/89/Kamala_Harris_%2848609224792%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'hickenlooper',
+    image: hickenlooper,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/0/0a/John_Hickenlooper_%2846831593435%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'inslee',
+    image: inslee,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/5/5a/Jay_Inslee_%2848609608871%29.jpg',
     attribution:
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
@@ -108,6 +147,18 @@ const Images = [
       'https://upload.wikimedia.org/wikipedia/commons/9/97/Wayne_Messam_%2847904682751%29.jpg',
     attribution:
       'Marc Nozell from Merrimack, New Hampshire, USA [CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)]',
+  },
+  {
+    id: 'moulton',
+    image: moulton,
+    url: '',
+    attribution: '',
+  },
+  {
+    id: 'ojeda',
+    image: ojeda,
+    url: '',
+    attribution: '',
   },
   {
     id: 'beto',
@@ -158,10 +209,26 @@ const Images = [
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
   {
+    id: 'swalwell',
+    image: swalwell,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/0/09/Eric_Swalwell_%2848016288116%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
     id: 'trump',
     image: trump,
     url:
       'https://upload.wikimedia.org/wikipedia/commons/2/24/Donald_Trump_%2829273256122%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'walsh',
+    image: walsh,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/7/78/Joe_Walsh_%285452299087%29.jpg',
     attribution:
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
@@ -172,6 +239,14 @@ const Images = [
       'https://upload.wikimedia.org/wikipedia/commons/5/5d/Elizabeth_Warren_%2848650427261%29.jpg',
     attribution:
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'weld',
+    image: weld,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/Bill_Weld_on_4th_day_of_2016_Libertarian_Convention_%281%29.jpg',
+    attribution:
+      'Redandready [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]',
   },
   {
     id: 'williamson',
