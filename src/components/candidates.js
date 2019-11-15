@@ -10,6 +10,7 @@ const Container = styled.div`
   background-color: ${props => props.theme.white};
   display: grid;
   grid-gap: 0.5rem;
+  margin-bottom: 0.5rem;
 `;
 
 const Candidates = ({ candidates, plans }) => {
