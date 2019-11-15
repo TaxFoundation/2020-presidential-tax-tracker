@@ -6,7 +6,9 @@ import booker from './booker.jpg';
 import bullock from './bullock.jpg';
 import buttigieg from './buttigieg.jpg';
 import castro from './castro.jpg';
+import blasio from './blasio.jpg';
 import delaney from './delaney.jpg';
+import patrick from './patrick.jpg';
 import gabbard from './gabbard.jpg';
 import gillibrand from './gillibrand.jpg';
 import harris from './harris.jpg';
@@ -85,12 +87,26 @@ const Images = [
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
   {
+    id: 'blasio',
+    image: blasio,
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/1/10/Bill_de_Blasio_%2848609755927%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
     id: 'delaney',
     image: delaney,
     url:
       'https://upload.wikimedia.org/wikipedia/commons/7/7f/John_Delaney_%2848644734173%29.jpg',
     attribution:
       'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
+  },
+  {
+    id: 'patrick',
+    image: patrick,
+    url: '',
+    attribution: '',
   },
   {
     id: 'gabbard',
@@ -151,14 +167,17 @@ const Images = [
   {
     id: 'moulton',
     image: moulton,
-    url: '',
-    attribution: '',
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/9/9e/Seth_Moulton_%2848628260973%29.jpg',
+    attribution:
+      'Gage Skidmore from Peoria, AZ, United States of America [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
   {
     id: 'ojeda',
     image: ojeda,
-    url: '',
-    attribution: '',
+    url:
+      'https://upload.wikimedia.org/wikipedia/commons/e/e0/MAJ_Richard_Ojeda.jpg',
+    attribution: 'Public Domain',
   },
   {
     id: 'beto',
