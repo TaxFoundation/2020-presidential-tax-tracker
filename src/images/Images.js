@@ -105,8 +105,9 @@ const Images = [
   {
     id: 'patrick',
     image: patrick,
-    url: '',
-    attribution: '',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Deval_2.jpg',
+    attribution:
+      'Scott LaPierre [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]',
   },
   {
     id: 'gabbard',
