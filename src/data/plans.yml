@@ -5,7 +5,7 @@
 - candidate: booker
   topic: estate-tax
   link: https://taxfoundation.org/cory-booker-estate-tax-step-up-in-basis/ 
-  plan: Eliminate step-up in basis and return to the estate tax levels of 2009.
+  plan: Eliminate step-up in basis, return to the estate tax levels of 2009, and add higher rates for extremely large estates.
 - candidate: harris
   topic: individual-credits
   link: https://taxfoundation.org/kamala-harris-tax-plan/
@@ -293,4 +293,24 @@
 - candidate: bennet
   topic: individual-credits
   link: https://michaelbennet.com/housing/
-  plan: Create a refundable mortgage down payment tax credit for primary residences.          
+  plan: Create a refundable mortgage down payment tax credit for primary residences.   
+- candidate: booker
+  topic: cap-gains-dividends
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Tax capital gains at the same rate as ordinary income.     
+- candidate: booker
+  topic: cap-gains-dividends
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Establish mark-to-market taxation of capital for the wealthiest.
+- candidate: booker
+  topic: other-tax
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Treat carried interest as ordinary income.
+- candidate: booker
+  topic: corporate-tax-rate
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Repeal the Tax Cuts and Jobs Act corporate tax cut.  
+- candidate: booker
+  topic: individual-tax-rates
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Repeal the Tax Cuts and Jobs Act individual income tax cuts for the wealthiest.   
