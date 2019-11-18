@@ -5,11 +5,7 @@
 - candidate: booker
   topic: estate-tax
   link: https://taxfoundation.org/cory-booker-estate-tax-step-up-in-basis/ 
-  plan: Eliminate step-up in basis and return to the estate tax levels of 2009.
-- candidate: harris
-  topic: individual-credits
-  link: https://taxfoundation.org/kamala-harris-tax-plan/
-  plan: Expand the Earned Income Tax Credit.
+  plan: Eliminate step-up in basis, return to the estate tax levels of 2009, and add higher rates for extremely large estates.
 - candidate: harris
   topic: estate-tax
   link: https://www.nbcnews.com/politics/2020-election/kamala-harris-unveils-315-billion-plan-boost-teacher-pay-n987171 
@@ -23,13 +19,9 @@
   link: https://taxfoundation.org/joe-biden-tax-proposals/
   plan: Eliminate step-up in basis.
 - candidate: sanders
-  topic: individual-tax-rates
-  link: https://www.sanders.senate.gov/download/estate-tax-one-pager?inline=file
-  plan: Proposed the For The 99.8% Act, a large overhaul of individual income tax rates and brackets.
-- candidate: sanders
   topic: estate-tax
   link: https://taxfoundation.org/bernie-sanders-estate-tax/  
-  plan: Return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
+  plan: Proposed the For The 99.8% Act, a large overhaul of the estate tax, which would return to 2009 estate tax exemption levels and replace flat rate with progressive rate structure.
 - candidate: warren
   topic: wealth-tax
   link: https://taxfoundation.org/elizabeth-warren-medicare-for-all-tax-proposals/  
@@ -85,13 +77,13 @@
 - candidate: harris
   topic: individual-tax-rates
   link: https://www.npr.org/2019/07/30/746805856/the-democratic-debate-over-medicare-for-all-and-middle-class-taxes-explained
-  plan: Implement a 4 percent payroll tax increase on households making more than $100,000 per year.
+  plan: Implement a 4 percent income-based premium tax on households making more than $100,000 per year.
 - candidate: harris
   topic: cap-gains-dividends
   link: https://kamalaharris.org/policies/medicare-for-all/full-policy/
   plan: Tax capital gains at the same rate as ordinary income.
 - candidate: sanders
-  topic: individual-tax-rates
+  topic: payroll-tax
   link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
   plan: Implement a 4 percent income-based premium tax on households earning more than $29,000.
 - candidate: sanders
@@ -293,4 +285,94 @@
 - candidate: bennet
   topic: individual-credits
   link: https://michaelbennet.com/housing/
-  plan: Create a refundable mortgage down payment tax credit for primary residences.          
+  plan: Create a refundable mortgage down payment tax credit for primary residences.   
+- candidate: booker
+  topic: cap-gains-dividends
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Tax capital gains at the same rate as ordinary income.     
+- candidate: booker
+  topic: cap-gains-dividends
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Establish mark-to-market taxation of capital for the wealthiest.
+- candidate: booker
+  topic: other-tax
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Treat carried interest as ordinary income.
+- candidate: booker
+  topic: corporate-tax-rate
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Repeal the Tax Cuts and Jobs Act corporate tax cut.  
+- candidate: booker
+  topic: individual-tax-rates
+  link: https://corybooker.com/issues/economic-security-and-opportunity/opportunity-and-justice-for-workers/
+  plan: Repeal the Tax Cuts and Jobs Act individual income tax cuts for the wealthiest.
+- candidate: booker
+  topic: payroll-tax
+  link: http://www.cnn.com/TRANSCRIPTS/1903/27/se.01.html
+  plan: Supports raising the Social Security payroll tax cap.
+- candidate: harris
+  topic: individual-credits
+  link: https://taxfoundation.org/kamala-harris-tax-plan/
+  plan: Create a new refundable tax credit that would be available to low- and middle-income taxpayers, called the “LIFT the Middle-Class Act.”   
+- candidate: sanders
+  topic: itemized-deductions
+  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file 
+  plan: Cap itemized deductions at 28 percent for households making over $250,000.
+- candidate: sanders
+  topic: individual-tax-rates
+  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
+  plan: Add four additional tax brackets with a top rate of 52 percent on income above $10 million.
+- candidate: harris
+  topic: individual-tax-rates
+  link: https://medium.com/@KamalaHarris/my-plan-for-medicare-for-all-7730370dd421
+  plan: Supports Sen. Sanders plan for higher taxes on the top 1 percent.
+- candidate: biden
+  topic: payroll-tax
+  link: https://joebiden.com/older-americans/
+  plan: Eliminate the income cap on Social Security taxes.
+- candidate: sanders
+  topic: payroll-tax
+  link: https://berniesanders.com/issues/expand-social-security/
+  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more.
+- candidate: biden
+  topic: individual-credits
+  link: https://www.c-span.org/video/?461983-20/south-carolina-democratic-party-convention-joe-biden
+  plan: Provide an $8,000 tax credit for individuals with children in child care.
+- candidate: delaney
+  topic: individual-credits
+  link: https://www.johndelaney.com/2019/06/21/delaney-releases-living-wage-plan-to-increase-take-home-pay-create-universal-paid-family-leave/
+  plan: Create a Workers' Tax Credit that expands the Earned Income Tax Credit.
+- candidate: delaney
+  topic: cap-gains-dividends
+  link: https://www.johndelaney.com/2019/06/21/delaney-releases-living-wage-plan-to-increase-take-home-pay-create-universal-paid-family-leave/
+  plan: Raise the capital gains rate on high-income earners.
+- candidate: delaney
+  topic: individual-tax-rates
+  link: https://www.johndelaney.com/2019/06/21/delaney-releases-living-wage-plan-to-increase-take-home-pay-create-universal-paid-family-leave/
+  plan: Reverse the Tax Cuts and Jobs Act tax cuts for the wealthy. 
+- candidate: delaney
+  topic: corporate-expensing
+  link: https://www.johndelaney.com/2019/06/21/delaney-releases-living-wage-plan-to-increase-take-home-pay-create-universal-paid-family-leave/
+  plan: Create a "Robot Tax" on job-displacing capital investments.
+- candidate: delaney
+  topic: corporate-tax-rate
+  link: https://www.johndelaney.com/issues/infrastructure/
+  plan: Raise the corporate income tax rate to 27 percent, up from 21 percent. 
+- candidate: delaney
+  topic: other-tax
+  link: https://www.johndelaney.com/issues/infrastructure/
+  plan: Increase the federal gas tax to account for inflation and index for inflation going forward.
+- candidate: yang
+  topic: cap-gains-dividends
+  link: https://www.yang2020.com/policies/capital-gain-carried-interest-tax/
+  plan: Tax capital gains at the same rate as ordinary income.
+- candidate: yang
+  topic: cap-gains-dividends
+  link: https://www.yang2020.com/policies/capital-gain-carried-interest-tax/
+  plan: Tax carried interest as ordinary income.
+- candidate: moulton
+  topic: corporate-tax-rate
+  link: https://www.eagletribune.com/news/new_hampshire/moulton-in-new-hampshire-focuses-on-foreign-policy/article_5afe5c45-9df3-599a-8c3c-1a62d34d93a4.html
+  plan: Raise the corproate tax rate to 25 percent, up from 21 percent.        
+             
+          
