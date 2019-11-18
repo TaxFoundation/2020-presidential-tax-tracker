@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${props => props.theme.fontSize};
     font-weight: ${props => props.theme.fontWeight};
     line-height: 1.6;
+    padding: 0 0 1px;
   }
 
   * {
