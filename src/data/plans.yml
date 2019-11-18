@@ -52,8 +52,16 @@
   plan: Create a carbon tax and dividend.
 - candidate: yang
   topic: other-tax
-  link: https://www.yang2020.com/policies/value-added-tax/
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
   plan: Create a Value-Added Tax of 10 percent.
+- candidate: yang
+  topic: other-tax
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
+  plan: Create a $40 per metric ton carbon tax.
+- candidate: yang
+  topic: payroll-tax
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
+  plan: Remove the wage cap on the Social Security payroll tax.     
 - candidate: beto
   topic: individual-tax-rates
   link: https://www.cnbc.com/2019/07/03/beto-orourke-fills-in-the-blanks-on-the-economy-taxes-entitlements.html
@@ -71,9 +79,13 @@
   link: https://taxfoundation.org/joe-biden-tax-proposals/ 
   plan: Tax capital gains at the same rate as ordinary income for those earnings more than $1 million.
 - candidate: harris
-  topic: other-tax
-  link: https://www.bloomberg.com/news/articles/2019-05-07/kamala-harris-calls-for-full-repeal-of-trump-s-2017-tax-law
-  plan: Repeal the entire Tax Cuts and Jobs Act.
+  topic: corporate-tax-rate
+  link: https://kamalaharris.org/issue/economic-justice/
+  plan: Repeal the  Tax Cuts and Jobs Act corporate tax cut.
+- candidate: harris
+  topic: individual-tax-rates
+  link: https://kamalaharris.org/issue/economic-justice/
+  plan: Repeal the  Tax Cuts and Jobs Acttax cuts for the top 1 percent.  
 - candidate: harris
   topic: individual-tax-rates
   link: https://www.npr.org/2019/07/30/746805856/the-democratic-debate-over-medicare-for-all-and-middle-class-taxes-explained
@@ -133,11 +145,7 @@
 - candidate: warren
   topic: corporate-tax-rate
   link:  https://taxfoundation.org/elizabeth-warren-corporate-tax-plan/ 
-  plan: Create a 7 percent surtax on corporate profits as reported on financial statements. 
-- candidate: yang
-  topic: other-tax
-  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
-  plan: Create a "Freedom Dividend" funded by five tax changes.
+  plan: Create a 7 percent surtax on corporate profits as reported on financial statements.
 - candidate: sanders
   topic: wealth-tax
   link: https://taxfoundation.org/bernie-sanders-wealth-tax/ 
@@ -364,11 +372,11 @@
   plan: Increase the federal gas tax to account for inflation and index for inflation going forward.
 - candidate: yang
   topic: cap-gains-dividends
-  link: https://www.yang2020.com/policies/capital-gain-carried-interest-tax/
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
   plan: Tax capital gains at the same rate as ordinary income.
 - candidate: yang
   topic: cap-gains-dividends
-  link: https://www.yang2020.com/policies/capital-gain-carried-interest-tax/
+  link: https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/
   plan: Tax carried interest as ordinary income.
 - candidate: moulton
   topic: corporate-tax-rate
@@ -441,6 +449,106 @@
 - candidate: castro
   topic: other-tax
   link: https://issues.juliancastro.com/working-families-first/
-  plan: Repeal the entire Tax Cuts and Jobs Act.                                        
+  plan: Repeal the entire Tax Cuts and Jobs Act.
+- candidate: gabbard
+  topic: individual-credits
+  link: https://www.tulsigabbard.org/tulsi-gabbard-on-houselessness
+  plan: Make permanent and expand the Low-Income Housing Tax Credit.
+- candidate: gabbard
+  topic: other-tax
+  link: https://www.tulsigabbard.org/tulsi-gabbard-on-education-policy-0
+  plan: Tax Wall Street.
+- candidate: klobuchar
+  topic: payroll-tax
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  plan: Create a refundable tax credit to help offset the costs of long-term care. 
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  plan: Create a tax credit equal to 20 percent of the premium costs of qualified long-term care insurance.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  plan: Create a tax credit of up to $6,000 for individuals caring for an aging relative or a relative with a disability.
+- candidate: klobuchar
+  topic: estate-taxs
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  plan: Close "trust fund loopholes" in inheritance tax.
+- candidate: klobuchar
+  topic: other-tax
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-to-tackle-the-climate-crisis-b1133845d2bb
+  plan: End federal tax policies that support fossil fuel exploration and production.    
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-to-tackle-the-climate-crisis-b1133845d2bb
+  plan: Create a technology-neutral production and investment tax credit for clean energy.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-to-tackle-the-climate-crisis-b1133845d2bb
+  plan: Restore the Electric Vehicle Tax Credit.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-to-tackle-the-climate-crisis-b1133845d2bb
+  plan: Expand manufacturing tax credits for investments that reduce greenhouse gas pollution.
+- candidate: klobuchar
+  topic: other-tax
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-to-tackle-the-climate-crisis-b1133845d2bb
+  plan: Create or expand several other green-energy related tax provisions.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-housing-plan-761e9f93f3a4
+  plan: Expand the Low-Income Housing Tax Credit and create a similar credit to encourage investment in distressed neighborhoods. 
+- candidate: klobuchar
+  topic: other-tax
+  link: https://medium.com/@AmyforAmerica/amys-plan-to-build-america-s-infrastructure-671b08a10751
+  plan: Create a financial risk fee on the largest banks.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-our-veterans-295fba0e0741
+  plan: Create a tax credit to support veterans who establish small businesses in underserved communities.
+- candidate: klobuchar
+  topic: other-tax
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-our-veterans-295fba0e0741
+  plan: Lower the minimum mileage that can be claimed for tax deductions from 100 miles to 50 miles for National Guard members and reservists.
+- candidate: klobuchar
+  topic: other-tax
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-many-paths-to-success-post-secondary-education-plan-8df6bf538727
+  plan: Reform education-related tax incentives.
+- candidate: klobuchar
+  topic: individual-credits
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-many-paths-to-success-post-secondary-education-plan-8df6bf538727
+  plan: Create a Worker Training Tax Credit.
+- candidate: klobuchar
+  topic: individual-tax-rates
+  link: https://medium.com/@AmyforAmerica/senator-klobuchars-many-paths-to-success-post-secondary-education-plan-8df6bf538727
+  plan: Implement a 30 percent minimum tax for individuals with incomes over $1 million.
+- candidate: messam
+  topic: individual-tax-rates
+  link: https://www.wayneforusa.com/jobs-economy-building-to-lead-the-future/ 
+  plan: Repeal the Tax Cuts and Jobs Act tax cuts for the wealthy.
+- candidate: sestack
+  topic: other-tax
+  link: https://www.joesestak.com/issues/poverty/
+  plan: Establish program for tax-free savings accounts for first home down payment. 
+- candidate: sestack
+  topic: payroll-tax
+  link: https://www.joesestak.com/issues/seniors/
+  plan: Increase the income cap on Social Security taxes and increase payroll taxes for those earnings $250,000 or more. 
+- candidate: sestack
+  topic: individual-credits
+  link: https://www.joesestak.com/issues/seniors/
+  plan: Reform credits and deductions for family members who provide care for their elders.
+- candidate: sestack
+  topic: individual-credits
+  link: https://www.joesestak.com/issues/jobs-economic-protection/
+  plan: Expand the New Markets Tax Credit.
+- candidate: sestack
+  topic: individual-credits
+  link: https://www.joesestak.com/issues/jobs-economic-protection/
+  plan: Make permanent the Renewable Energy Production Tax Credit and Investment Tax Credit.                                                                                                           
              
           
