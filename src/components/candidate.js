@@ -18,12 +18,8 @@ const StyledCandidate = styled.div`
 `;
 
 const Portrait = styled.div`
-  align-content: center;
-  display: grid;
-  grid-gap: 0.5rem;
-  grid-template: repeat(2, auto) / 1fr;
-  justify-content: center;
-
+  text-align: center;
+  
   h3 {
     margin: 0;
     text-align: center;
