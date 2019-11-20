@@ -23,6 +23,12 @@ const StyledButton = styled.button`
     border: 1px solid ${props => props.theme.tfBlue};
     color: ${props => props.theme.tfBlue};
   }
+
+  &:focus {
+    background-color: ${props => props.active ? props.theme.tfBlue : props.theme.white};
+    border: 1px solid ${props => props.theme.tfBlue};
+    color: ${props => props.active ? props.theme.white : props.theme.tfBlue};
+  }
 `;
 
 const Button = ({ id, children }) => {
