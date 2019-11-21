@@ -60,7 +60,7 @@
   running: true
 - id: messam
   name: Wayne Messam
-  running: true
+  running: false
 - id: patrick
   name: Deval Patrick
   running: true
