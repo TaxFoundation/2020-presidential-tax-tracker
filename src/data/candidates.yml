@@ -102,7 +102,7 @@
   firstName: Wayne
   lastName: Messam
   active: false
-  running: true
+  running: false
 - id: patrick
   firstName: Deval
   lastName: Patrick
