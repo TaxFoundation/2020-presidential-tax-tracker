@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { Context } from '../state/reducer';
+import { Context } from '../../state/reducer';
 
 const StyledButton = styled.button`
   border: ${props =>
@@ -13,6 +13,8 @@ const StyledButton = styled.button`
   background-color: ${props =>
     props.active ? props.theme.tfBlue : props.theme.white};
   color: ${props => (props.active ? props.theme.white : props.theme.color)};
+  cursor: pointer;
+  font-family: ${props => props.theme.fontFamilies.lato};
   font-size: 14px;
   padding: 4px;
 
@@ -21,15 +23,24 @@ const StyledButton = styled.button`
     border: 1px solid ${props => props.theme.tfBlue};
     color: ${props => props.theme.tfBlue};
   }
+
+  &:focus {
+    background-color: ${props => props.active ? props.theme.tfBlue : props.theme.white};
+    border: 1px solid ${props => props.theme.tfBlue};
+    color: ${props => props.active ? props.theme.white : props.theme.tfBlue};
+  }
 `;
 
 const Button = ({ id, children }) => {
   const { data, updateData } = useContext(Context);
-  const active = data[id];
+  const directUpdate = !!data[id];
+
   return (
     <StyledButton
-      active={active}
-      onClick={() => updateData({ id, value: !active })}
+      active={directUpdate ? data[id] : false}
+      onClick={() =>
+        directUpdate ? updateData({ id, value: !data[id] }) : updateData({ id })
+      }
     >
       {children}
     </StyledButton>
@@ -41,4 +52,4 @@ Button.propTypes = {
   children: PropTypes.any,
 };
 
-export default Button;
+export { Button as default, StyledButton };

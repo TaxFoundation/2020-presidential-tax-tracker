@@ -1,94 +1,155 @@
 - id: biden
-  name: Joe Biden
+  firstName: Joe
+  lastName: Biden
+  active: true
   running: true
 - id: booker
-  name: Cory Booker
+  firstName: Cory
+  lastName: Booker
+  active: false
   running: true
 - id: buttigieg
-  name: Pete Buttigieg
+  firstName: Pete
+  lastName: Buttigieg
+  active: false
   running: true
 - id: delaney
-  name: John Delaney
+  firstName: John
+  lastName: Delaney
+  active: false
   running: true
 - id: gabbard
-  name: Tulsi Gabbard
+  firstName: Tulsi
+  lastName: Gabbard
+  active: false
   running: true
 - id: gillibrand
-  name: Kirsten Gillibrand
+  firstName: Kirsten
+  lastName: Gillibrand
+  active: false
   running: false
 - id: harris
-  name: Kamala Harris
+  firstName: Kamala
+  lastName: Harris
+  active: false
   running: true
 - id: hickenlooper
-  name: John Hickenlooper
-  running: false
+  firstName: John
+  lastName: Hickenlooper
+  active: false
+  running: trfalseue
 - id: inslee
-  name: Jay Inslee
+  firstName: Jay
+  lastName: Inslee
+  active: false
   running: false
 - id: klobuchar
-  name: Amy Klobuchar
+  firstName: Amy
+  lastName: Klobuchar
+  active: false
   running: true
 - id: beto
-  name: Beto O’Rourke
-  running: false
+  firstName: Beto
+  lastName: O’Rourke
+  active: false
+  running: true
 - id: sanders
-  name: Bernie Sanders
+  firstName: Bernie
+  lastName: Sanders
+  active: true
   running: true
 - id: swalwell
-  name: Eric Swalwell
+  firstName: Eric
+  lastName: Swalwell
+  active: false
   running: false
 - id: warren
-  name: Elizabeth Warren
+  firstName: Elizabeth
+  lastName: Warren
+  active: falstruee
   running: true
 - id: williamson
-  name: Marianne Williamson
+  firstName: Marianne
+  lastName: Williamson
+  active: false
   running: true
 - id: yang
-  name: Andrew Yang
+  firstName: Andrew
+  lastName: Yang
+  active: false
   running: true
 - id: trump
-  name: Donald J. Trump
+  firstName: Donald
+  lastName: Trump
+  active: false
   running: true
 - id: castro
-  name: Julián Castro
+  firstName: Julián
+  lastName: Castro
+  active: false
   running: true
 - id: bennet
-  name: Michael Bennet
+  firstName: Michael
+  lastName: Bennet
+  active: false
   running: true
 - id: bullock
-  name: Steve Bullock
+  firstName: Steve
+  lastName: Bullock
+  active: false
   running: false
 - id: messam
-  name: Wayne Messam
+  firstName: Wayne
+  lastName: Messam
+  active: false
   running: false
 - id: patrick
-  name: Deval Patrick
+  firstName: Deval
+  lastName: Patrick
+  active: false
   running: true
 - id: sestak
-  name: Joe Sestak
+  firstName: Joe
+  lastName: Sestak
+  active: false
   running: false
 - id: steyer
-  name: Tom Steyer
+  firstName: Tom
+  lastName: Steyer
+  active: false
   running: true
 - id: walsh
-  name: Joe Walsh
+  firstName: Joe
+  lastName: Walsh
+  active: false
   running: true
 - id: weld
-  name: William F. Weld
+  firstName: William
+  lastName: Weld
+  active: false
   running: true
 - id: blasio
-  name: Bill de Blasio
-  running: false
+  firstName: Bill
+  lastName: de Blasio
+  active: false
+  running: tfalserue
 - id: moulton
-  name: Seth Moulton
+  firstName: Seth
+  lastName: Moulton
+  active: false
   running: false
 - id: ojeda
-  name: Richard Ojeda
+  firstName: Richard
+  lastName: Ojeda
+  active: false
   running: false
 - id: ryan
-  name: Tim Ryan
+  firstName: Tim
+  lastName: Ryan
+  active: false
   running: false
-- id: sandford
-  name: Mark Sanford
+- id: sanford
+  firstName: Mark
+  lastName: Sanford
+  active: false
   running: false
-                                      
