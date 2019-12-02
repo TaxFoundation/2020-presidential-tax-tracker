@@ -57,7 +57,7 @@
   running: true
 - id: bullock
   name: Steve Bullock
-  running: true
+  running: false
 - id: messam
   name: Wayne Messam
   running: false
@@ -66,7 +66,7 @@
   running: true
 - id: sestak
   name: Joe Sestak
-  running: true
+  running: false
 - id: steyer
   name: Tom Steyer
   running: true
