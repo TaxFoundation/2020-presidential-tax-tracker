@@ -37,7 +37,7 @@
   firstName: John
   lastName: Hickenlooper
   active: false
-  running: trfalseue
+  running: false
 - id: inslee
   firstName: Jay
   lastName: Inslee
@@ -52,7 +52,7 @@
   firstName: Beto
   lastName: O’Rourke
   active: false
-  running: true
+  running: false
 - id: sanders
   firstName: Bernie
   lastName: Sanders
@@ -132,7 +132,7 @@
   firstName: Bill
   lastName: de Blasio
   active: false
-  running: tfalserue
+  running: false
 - id: moulton
   firstName: Seth
   lastName: Moulton
