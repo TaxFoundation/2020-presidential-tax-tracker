@@ -97,7 +97,7 @@
   firstName: Steve
   lastName: Bullock
   active: false
-  running: true
+  running: false
 - id: messam
   firstName: Wayne
   lastName: Messam
@@ -112,7 +112,7 @@
   firstName: Joe
   lastName: Sestak
   active: false
-  running: true
+  running: false
 - id: steyer
   firstName: Tom
   lastName: Steyer
