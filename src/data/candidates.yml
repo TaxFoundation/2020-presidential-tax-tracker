@@ -8,6 +8,11 @@
   lastName: Booker
   active: false
   running: true
+- id: bloomberg
+  firstName: Michael
+  lastName: Bloomberg
+  active: false
+  running: true
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
@@ -66,7 +71,7 @@
 - id: warren
   firstName: Elizabeth
   lastName: Warren
-  active: falstruee
+  active: true
   running: true
 - id: williamson
   firstName: Marianne
