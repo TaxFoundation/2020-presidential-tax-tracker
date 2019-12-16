@@ -43,7 +43,7 @@
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
   plan: Create a wealth tax.
 - candidate: buttigieg
-  topic: wealth-tax
+  topic: other-tax
   link: https://www.cnbc.com/2019/04/12/2020-candidate-pete-buttigieg-on-taxing-the-rich-future-of-us-capitalism.html
   plan: Create a financial transaction tax.
 - candidate: delaney
@@ -561,6 +561,22 @@
 - candidate: biden
   topic: individual-credits
   link: https://joebiden.com/older-americans/
-  plan: Expand the Earned Income Tax Credit to older workers.                                                                                                                                      
+  plan: Expand the Earned Income Tax Credit to older workers.
+- candidate: biden
+  topic: corporate-tax-rate
+  link: https://taxfoundation.org/joe-biden-minimum-tax-proposal/
+  plan: Create a 15% minimum book tax on firms with $100 million or more in net income that pay little to no federal income tax.  
+- candidate: biden
+  topic: corporate-international
+  link: https://www.bloomberg.com/news/articles/2019-12-04/biden-to-target-tax-avoiding-companies-with-minimum-federal-levy
+  plan: Double the tax rate on Global Intangible Low Tax Income (GILTI). 
+- candidate: biden
+  topic: other-tax
+  link: https://joebiden.com/healthcare/
+  plan: Disallow tax deductions for presciption drug advertisements.
+- candidate: bloomberg
+  topic: individual-tax-rates
+  link: https://www.pbs.org/newshour/politics/what-does-michael-bloomberg-believe-where-the-candidate-stands-on-6-issues
+  plan: Increase taxes on the wealthy.                                                                                                                                              
              
           
