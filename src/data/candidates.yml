@@ -92,7 +92,7 @@
   firstName: Julián
   lastName: Castro
   active: false
-  running: true
+  running: false
 - id: bennet
   firstName: Michael
   lastName: Bennet
