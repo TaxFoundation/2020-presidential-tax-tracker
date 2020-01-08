@@ -199,10 +199,6 @@
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
   plan: Transition to economic depreciation for all investments.
 - candidate: klobuchar
-  topic: individual-tax-rates
-  link: https://www.politico.com/news/2019/10/25/klobuchar-community-college-pell-grants-057678
-  plan: Require taxpayers earning more than $1 million to pay at least a 30 percent minimun tax rate.
-- candidate: klobuchar
   topic: cap-gains-dividends
   link: https://www.politico.com/news/2019/10/25/klobuchar-community-college-pell-grants-057678
   plan: Raise capital gains and dividends tax rates on taxpayers in the two highest income tax brackets.
@@ -573,8 +569,52 @@
 - candidate: biden
   topic: other-tax
   link: https://joebiden.com/healthcare/
-  plan: Disallow tax deductions for presciption drug advertisements.
+  plan: Disallow tax deductions for prescription drug advertisements.
 - candidate: bloomberg
   topic: individual-tax-rates
   link: https://www.pbs.org/newshour/politics/what-does-michael-bloomberg-believe-where-the-candidate-stands-on-6-issues
   plan: Increase taxes on the wealthy.
+- candidate: bennet
+  topic: individual-tax-rates
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Restore the 39.6 percent marginal rate, up from 37 percent, and add a new top bracket with a rate of 44 percent.
+- candidate: bennet
+  topic: corporate-tax-rate
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
+- candidate: bennet
+  topic: pass-through
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Repeal the Section 199A pass-through deduction.
+- candidate: bennet
+  topic: estate-tax
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Eliminate step-up in basis.
+- candidate: bennet
+  topic: estate-tax
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Return to 2009 estate tax exemption levels and create a progressive estate tax rate structure.
+- candidate: bennet
+  topic: individual-credits
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Increase the child tax credit to $3,600 per year for children under age six and to $3,000 a year for children six and older.                                                                                                                                                       
+- candidate: bennet
+  topic: individual-credits
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Expand the premium tax credit.
+- candidate: bennet
+  topic: individual-credits
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Create a caregiver tax credit of up to $3,000.
+- candidate: bennet
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Tax capital gains at the same rate as ordinary income.                 
+- candidate: bennet
+  topic: cap-gains-dividends
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Establish mark-to-market taxation of capital.
+- candidate: bennet
+  topic: corporate-international
+  link: https://taxfoundation.org/senator-michael-bennet-real-deal/
+  plan: Tighten international tax provisions.             
