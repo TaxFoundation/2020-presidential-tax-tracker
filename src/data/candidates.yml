@@ -7,7 +7,7 @@
   firstName: Cory
   lastName: Booker
   active: false
-  running: true
+  running: false
 - id: bloomberg
   firstName: Michael
   lastName: Bloomberg
