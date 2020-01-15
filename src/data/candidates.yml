@@ -37,7 +37,7 @@
   firstName: Kamala
   lastName: Harris
   active: false
-  running: false 
+  running: false
 - id: hickenlooper
   firstName: John
   lastName: Hickenlooper
