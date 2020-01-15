@@ -77,7 +77,7 @@
   firstName: Marianne
   lastName: Williamson
   active: false
-  running: true
+  running: false
 - id: yang
   firstName: Andrew
   lastName: Yang
