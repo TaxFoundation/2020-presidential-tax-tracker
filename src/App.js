@@ -32,6 +32,14 @@ const GlobalStyle = createGlobalStyle`
   * {
     font-family: ${props => props.theme.fontFamilies.lato};
   }
+
+  div,
+  h1,
+  h2,
+  h3,
+  p {
+    page-break-inside: avoid;
+  }
 `;
 
 function App() {
