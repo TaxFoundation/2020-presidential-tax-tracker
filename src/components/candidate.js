@@ -16,6 +16,10 @@ const StyledCandidate = styled.div`
   @media screen and (min-width: 600px) {
     grid-template-columns: minmax(120px, 20%) 1fr;
   }
+
+  @media print {
+    box-shadow: none;
+  }
 `;
 
 const Portrait = styled.div`
