@@ -19,6 +19,7 @@ const StyledCandidate = styled.div`
 
   @media print {
     box-shadow: none;
+    display: block;
   }
 `;
 
@@ -63,6 +64,10 @@ const TopicsList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media print {
+    columns: 2;
+  }
 `;
 
 const Topic = styled.li`
