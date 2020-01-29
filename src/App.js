@@ -16,14 +16,29 @@ const GlobalStyle = createGlobalStyle`
 
   html,
   body {
-    font-size: ${props => props.theme.fontSize};
     font-weight: ${props => props.theme.fontWeight};
     line-height: 1.6;
     padding: 0 0 1px;
+
+    @media screen {
+      font-size: ${props => props.theme.fontSize};
+    }
+
+    @media print {
+      font-size: ${props => props.theme.printSize};
+    }
   }
 
   * {
     font-family: ${props => props.theme.fontFamilies.lato};
+  }
+
+  div,
+  h1,
+  h2,
+  h3,
+  p {
+    page-break-inside: avoid;
   }
 `;
 

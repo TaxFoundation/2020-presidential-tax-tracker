@@ -5,6 +5,7 @@ const Theme = {
     lato: 'lato, sans-serif; ',
   },
   fontSize: '16px',
+  printSize: '10pt',
   fontWeight: '400',
   maxWidth: '1000px',
   mobileWidth: '480px',

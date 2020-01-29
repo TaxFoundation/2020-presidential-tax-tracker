@@ -12,6 +12,10 @@ const Container = styled.div`
   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 1rem;
   text-align: center;
+
+  @media print {
+    display: none;
+  }
 `;
 
 const Toggle = styled.button`
