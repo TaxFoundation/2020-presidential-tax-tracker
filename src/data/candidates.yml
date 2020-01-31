@@ -22,7 +22,7 @@
   firstName: John
   lastName: Delaney
   active: false
-  running: true
+  running: false
 - id: gabbard
   firstName: Tulsi
   lastName: Gabbard
