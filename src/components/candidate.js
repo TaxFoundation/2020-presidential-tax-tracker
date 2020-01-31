@@ -11,18 +11,34 @@ const StyledCandidate = styled.div`
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
+  page-break-inside: avoid;
 
   @media screen and (min-width: 600px) {
     grid-template-columns: minmax(120px, 20%) 1fr;
+  }
+
+  @media print {
+    box-shadow: none;
+    display: block;
   }
 `;
 
 const Portrait = styled.div`
   text-align: center;
-  
+
   h3 {
     margin: 0;
     text-align: center;
+  }
+
+  @media print {
+    border-bottom: 2px solid ${props => props.theme.borderColor};
+    text-align: left;
+
+    h3 {
+      margin: 0;
+      text-align: left;
+    }
   }
 `;
 
@@ -32,6 +48,10 @@ const StyledImage = styled.img`
   margin: 0 auto;
   max-width: 150px;
   width: 100%;
+
+  @media print {
+    display: none;
+  }
 `;
 
 const ParticularPlan = styled.div`
@@ -44,10 +64,15 @@ const TopicsList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media print {
+    columns: 2;
+  }
 `;
 
 const Topic = styled.li`
   margin: 0 0 1rem;
+  page-break-inside: avoid;
 
   &:last-child {
     margin: 0;
@@ -74,6 +99,10 @@ const ReadMore = styled.a`
     height: 0.8rem;
     margin-left: 0.5rem;
     width: 0.8rem;
+  }
+
+  @media print {
+    display: none;
   }
 `;
 

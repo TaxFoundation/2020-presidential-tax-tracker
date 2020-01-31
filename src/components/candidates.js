@@ -11,6 +11,10 @@ const Container = styled.div`
   display: grid;
   grid-gap: 0.5rem;
   margin-bottom: 0.5rem;
+
+  @media print {
+    display: block;
+  }
 `;
 
 const Candidates = ({ candidates, plans }) => {
