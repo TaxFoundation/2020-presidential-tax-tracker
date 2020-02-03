@@ -77,7 +77,7 @@
 - candidate: biden
   topic: cap-gains-dividends
   link: https://taxfoundation.org/joe-biden-tax-proposals/
-  plan: Tax capital gains at the same rate as ordinary income for those earnings more than $1 million.
+  plan: Tax capital gains at the same rate as ordinary income for those earning more than $1 million.
 - candidate: harris
   topic: corporate-tax-rate
   link: https://kamalaharris.org/issue/economic-justice/
@@ -121,7 +121,7 @@
 - candidate: warren
   topic: payroll-tax
   link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
-  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more and impose a 14.8 percent tax split between employers and employees.
+  plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more and impose a 14.8 percent tax split between employers and employees.
 - candidate: warren
   topic: cap-gains-dividends
   link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
@@ -337,7 +337,7 @@
 - candidate: sanders
   topic: payroll-tax
   link: https://berniesanders.com/issues/expand-social-security/
-  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more.
+  plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more.
 - candidate: biden
   topic: individual-credits
   link: https://www.c-span.org/video/?461983-20/south-carolina-democratic-party-convention-joe-biden
@@ -457,7 +457,7 @@
 - candidate: klobuchar
   topic: payroll-tax
   link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
-  plan: Eliminate the income cap on Social Security taxes for those earnings $250,000 or more.
+  plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more.
 - candidate: klobuchar
   topic: individual-credits
   link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
@@ -533,7 +533,7 @@
 - candidate: sestak
   topic: payroll-tax
   link: https://www.joesestak.com/issues/seniors/
-  plan: Increase the income cap on Social Security taxes and increase payroll taxes for those earnings $250,000 or more.
+  plan: Increase the income cap on Social Security taxes and increase payroll taxes for those earning $250,000 or more.
 - candidate: sestak
   topic: individual-credits
   link: https://www.joesestak.com/issues/seniors/
@@ -661,4 +661,40 @@
 - candidate: steyer
   topic: individual-tax-rates
   link: https://www.tomsteyer.com/working-families-tax-cut/
-  plan: Reverse the Tax Cuts and Jobs Act tax cut for the wealthy by restoring the 39.6 percent top marginal tax rate for the top 1% of households.            
+  plan: Reverse the Tax Cuts and Jobs Act tax cut for the wealthy by restoring the 39.6 percent top marginal tax rate for the top 1% of households. 
+- candidate: bloomberg
+  topic: individual-tax-rates
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Reverse the Tax Cuts and Jobs Act tax cut for the wealthy by restoring the top rate on ordinary income from 37 percent to 39.6 percent.
+- candidate: bloomberg
+  topic: cap-gains-dividends
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Tax capital gains at the same rate as ordinary income for those earning more than $1 million. 
+- candidate: bloomberg
+  topic: individual-tax-rates
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Impose a 5 percent surtax on income above $5 million, applied to both capital and labor income.
+- candidate: bloomberg
+  topic: estate-tax
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Lower the estate tax threshold.
+- candidate: bloomberg
+  topic: estate-tax
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Eliminate step-up in basis.
+- candidate: bloomberg
+  topic: pass-through
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Repeal the Section 199A pass-through deduction.
+- candidate: bloomberg
+  topic: other-tax
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: End like-kind (1031) exchanges and the current tax treatment of carried interest.
+- candidate: bloomberg
+  topic: corporate-tax-rate
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
+- candidate: bloomberg
+  topic: corporate-international
+  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  plan: Raise the minimum tax on foreign income and apply it on a per-country basis. Tighten rules on transfer pricing and reporting of foreign taxes.             
