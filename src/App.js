@@ -10,6 +10,8 @@ import topics from './generatedData/topics';
 import plans from './generatedData/plans';
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
   * {
     box-sizing: border-box;
   }

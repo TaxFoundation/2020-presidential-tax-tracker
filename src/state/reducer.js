@@ -24,8 +24,17 @@ const toggleSubset = (subset, state) => {
 
 const reducer = (state, action) => {
   switch (action.id) {
-    case 'toggleCandidates': {
-      return toggleSubset(candidates, state);
+    case 'toggleRunningCandidates': {
+      return toggleSubset(
+        candidates.filter(candidate => candidate.running),
+        state
+      );
+    }
+    case 'toggleDroppedCandidates': {
+      return toggleSubset(
+        candidates.filter(candidate => !candidate.running),
+        state
+      );
     }
     case 'toggleTopics': {
       return toggleSubset(topics, state);
