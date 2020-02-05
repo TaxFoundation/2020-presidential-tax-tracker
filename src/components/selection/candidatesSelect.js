@@ -14,41 +14,49 @@ const SectionHeading = styled.h3`
   text-align: center;
 `;
 
-const CandidatesSelect = ({ candidates }) => (
+const SelectionGroup = ({ heading, id, candidates }) => (
   <>
-    <SectionHeading>Running</SectionHeading>
+    <SectionHeading>{heading}</SectionHeading>
     <StyledUnorderedList>
-      {candidates
-        .filter(candidate => candidate.running)
-        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))
-        .map(candidate => (
-          <StyledListItem key={`${candidate.id}-select`}>
-            <CandidateSelect candidate={candidate} />
-          </StyledListItem>
-        ))}
+      {candidates.map(candidate => (
+        <StyledListItem key={`${candidate.id}-select`}>
+          <CandidateSelect candidate={candidate} />
+        </StyledListItem>
+      ))}
       <StyledListItem>
-        <Button id="toggleRunningCandidates">Select / Deselect All</Button>
-      </StyledListItem>
-    </StyledUnorderedList>
-    <SectionHeading>Dropped Out</SectionHeading>
-    <StyledUnorderedList>
-      {candidates
-        .filter(candidate => !candidate.running)
-        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))
-        .map(candidate => (
-          <StyledListItem key={`${candidate.id}-select`}>
-            <CandidateSelect candidate={candidate} />
-          </StyledListItem>
-        ))}
-      <StyledListItem>
-        <Button id="toggleDroppedCandidates">Select / Deselect All</Button>
+        <Button id={id}>Select / Deselect All</Button>
       </StyledListItem>
     </StyledUnorderedList>
   </>
 );
 
+const CandidatesSelect = ({ candidates }) => (
+  <>
+    <SelectionGroup
+      heading="Running"
+      id="toggleRunningCandidates"
+      candidates={candidates
+        .filter(candidate => candidate.running)
+        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))}
+    />
+    <SelectionGroup
+      heading="Dropped Out"
+      id="toggleDroppedCandidates"
+      candidates={candidates
+        .filter(candidate => !candidate.running)
+        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))}
+    />
+  </>
+);
+
+SelectionGroup.propTypes = {
+  heading: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  candidates: PropTypes.arrayOf(PropTypes.object),
+};
+
 CandidatesSelect.propTypes = {
-  candidates: PropTypes.array,
+  candidates: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default CandidatesSelect;
