@@ -11,12 +11,12 @@
 - id: bloomberg
   firstName: Michael
   lastName: Bloomberg
-  active: false
+  active: true
   running: true
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
-  active: false
+  active: true
   running: true
 - id: delaney
   firstName: John
