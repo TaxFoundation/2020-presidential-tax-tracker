@@ -1,6 +1,6 @@
 Include this tag in the taxfoundation.org post:
 
-<div id="2020-tracker"></div>
+`<div id="2020-tracker"></div>`
 
 Include these scripts on the taxfoundation.org post page:
 
