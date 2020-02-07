@@ -697,4 +697,8 @@
 - candidate: bloomberg
   topic: corporate-international
   link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
-  plan: Raise the minimum tax on foreign income and apply it on a per-country basis. Tighten rules on transfer pricing and reporting of foreign taxes.             
+  plan: Raise the minimum tax on foreign income and apply it on a per-country basis. Tighten rules on transfer pricing and reporting of foreign taxes.
+- candidate: buttigieg
+  topic: pass-through
+  link: https://www.nytimes.com/interactive/2020/01/16/opinion/pete-buttigieg-nytimes-interview.html
+  plan: Repeal the Section 199A pass-through deduction.                
