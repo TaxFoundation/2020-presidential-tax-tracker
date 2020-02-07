@@ -127,7 +127,7 @@
   firstName: Joe
   lastName: Walsh
   active: false
-  running: true
+  running: false
 - id: weld
   firstName: William
   lastName: Weld
