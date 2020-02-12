@@ -82,7 +82,7 @@
   firstName: Andrew
   lastName: Yang
   active: false
-  running: true
+  running: false
 - id: trump
   firstName: Donald
   lastName: Trump
