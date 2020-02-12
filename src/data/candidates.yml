@@ -82,7 +82,7 @@
   firstName: Andrew
   lastName: Yang
   active: false
-  running: true
+  running: false
 - id: trump
   firstName: Donald
   lastName: Trump
@@ -97,7 +97,7 @@
   firstName: Michael
   lastName: Bennet
   active: false
-  running: true
+  running: false
 - id: bullock
   firstName: Steve
   lastName: Bullock
@@ -127,7 +127,7 @@
   firstName: Joe
   lastName: Walsh
   active: false
-  running: true
+  running: false
 - id: weld
   firstName: William
   lastName: Weld
