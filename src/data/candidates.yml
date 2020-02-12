@@ -112,7 +112,7 @@
   firstName: Deval
   lastName: Patrick
   active: false
-  running: true
+  running: false
 - id: sestak
   firstName: Joe
   lastName: Sestak
