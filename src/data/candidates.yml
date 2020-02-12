@@ -97,7 +97,7 @@
   firstName: Michael
   lastName: Bennet
   active: false
-  running: true
+  running: false
 - id: bullock
   firstName: Steve
   lastName: Bullock
