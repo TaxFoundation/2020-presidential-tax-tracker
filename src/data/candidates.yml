@@ -17,7 +17,7 @@
   firstName: Pete
   lastName: Buttigieg
   active: false
-  running: true
+  running: false
 - id: delaney
   firstName: John
   lastName: Delaney
@@ -122,7 +122,7 @@
   firstName: Tom
   lastName: Steyer
   active: false
-  running: true
+  running: false
 - id: walsh
   firstName: Joe
   lastName: Walsh
