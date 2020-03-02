@@ -52,7 +52,7 @@
   firstName: Amy
   lastName: Klobuchar
   active: false
-  running: true
+  running: false
 - id: beto
   firstName: Beto
   lastName: O’Rourke
