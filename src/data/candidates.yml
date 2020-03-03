@@ -16,8 +16,8 @@
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
-  active: true
-  running: true
+  active: false
+  running: false
 - id: delaney
   firstName: John
   lastName: Delaney
@@ -52,7 +52,7 @@
   firstName: Amy
   lastName: Klobuchar
   active: false
-  running: true
+  running: false
 - id: beto
   firstName: Beto
   lastName: O’Rourke
@@ -122,7 +122,7 @@
   firstName: Tom
   lastName: Steyer
   active: false
-  running: true
+  running: false
 - id: walsh
   firstName: Joe
   lastName: Walsh
