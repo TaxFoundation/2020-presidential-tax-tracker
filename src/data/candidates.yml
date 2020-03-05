@@ -11,8 +11,8 @@
 - id: bloomberg
   firstName: Michael
   lastName: Bloomberg
-  active: true
-  running: true
+  active: false
+  running: false
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
