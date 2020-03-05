@@ -12,7 +12,7 @@
   plan: Expand the estate tax.
 - candidate: klobuchar
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/democratic-proposals-corporate-tax-hike/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate tax rate to 25 percent, up from the 21 percent.
 - candidate: biden
   topic: estate-tax
@@ -104,7 +104,7 @@
   plan: Tax capital gains at the same rate as ordinary income for household income above $250,000.
 - candidate: klobuchar
   topic: corporate-tax-rate
-  link: https://www.washingtonpost.com/politics/2019/10/15/october-democratic-debate-transcript/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Reverse the Tax Cuts and Jobs Act corporate income tax cut.
 - candidate: klobuchar
   topic: corporate-international
@@ -120,11 +120,11 @@
   plan: Tax capital gains at the same rate as ordinary income.
 - candidate: warren
   topic: payroll-tax
-  link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
+  link: https://taxfoundation.org/2020-payroll-tax-proposals/
   plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more and impose a 14.8 percent tax split between employers and employees.
 - candidate: warren
   topic: cap-gains-dividends
-  link:  https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
+  link: https://www.cnbc.com/2019/09/12/elizabeth-warren-proposes-sweeping-increase-in-social-security-benefits-financed-by-wealth-taxes.html
   plan: Levy a 14.8 percent tax on investment income of individuals earning more than $250,000 and couples earning more than $400,000.
 - candidate: castro
   topic: cap-gains-dividends
@@ -144,7 +144,7 @@
   plan: Replace the estate tax and gift tax with a unified inheritance gift tax.
 - candidate: warren
   topic: corporate-tax-rate
-  link:  https://taxfoundation.org/elizabeth-warren-corporate-tax-plan/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Create a 7 percent surtax on corporate profits as reported on financial statements.
 - candidate: sanders
   topic: wealth-tax
@@ -172,11 +172,11 @@
   plan: Impose a financial transactions tax.
 - candidate: buttigieg
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/democratic-proposals-corporate-tax-hike/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate income tax rate to 35 percent, up from 21 percent.
 - candidate: biden
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/democratic-proposals-corporate-tax-hike/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
 - candidate: bullock
   topic: corporate-tax-rate
@@ -192,7 +192,7 @@
   plan: Tax capital gains at the same rate as ordinary income.
 - candidate: sanders
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/democratic-proposals-corporate-tax-hike/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate tax rate to 35 percent, up from 21 percent.
 - candidate: sanders
   topic: corporate-expensing
@@ -204,7 +204,7 @@
   plan: Raise capital gains and dividends tax rates on taxpayers in the two highest income tax brackets.
 - candidate: warren
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/democratic-proposals-corporate-tax-hike/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate tax rate to 35 percent, up from 21 percent.
 - candidate: warren
   topic: corporate-expensing
@@ -332,11 +332,11 @@
   plan: Supports Sen. Sanders plan for higher taxes on the top 1 percent.
 - candidate: biden
   topic: payroll-tax
-  link: https://joebiden.com/older-americans/
+  link: https://taxfoundation.org/2020-payroll-tax-proposals/
   plan: Eliminate the income cap on Social Security taxes.
 - candidate: sanders
   topic: payroll-tax
-  link: https://berniesanders.com/issues/expand-social-security/
+  link: https://taxfoundation.org/2020-payroll-tax-proposals/
   plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more.
 - candidate: biden
   topic: individual-credits
@@ -456,7 +456,7 @@
   plan: Tax Wall Street.
 - candidate: klobuchar
   topic: payroll-tax
-  link: https://medium.com/@AmyforAmerica/senator-klobuchars-plan-for-seniors-efce83143761
+  link: https://taxfoundation.org/2020-payroll-tax-proposals/
   plan: Eliminate the income cap on Social Security taxes for those earning $250,000 or more.
 - candidate: klobuchar
   topic: individual-credits
@@ -560,7 +560,7 @@
   plan: Expand the Earned Income Tax Credit to older workers.
 - candidate: biden
   topic: corporate-tax-rate
-  link: https://taxfoundation.org/joe-biden-minimum-tax-proposal/
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Create a 15% minimum book tax on firms with $100 million or more in net income that pay little to no federal income tax.
 - candidate: biden
   topic: corporate-international
@@ -597,7 +597,7 @@
 - candidate: bennet
   topic: individual-credits
   link: https://taxfoundation.org/senator-michael-bennet-real-deal/
-  plan: Increase the child tax credit to $3,600 per year for children under age six and to $3,000 a year for children six and older.                                                                                                                                                       
+  plan: Increase the child tax credit to $3,600 per year for children under age six and to $3,000 a year for children six and older.
 - candidate: bennet
   topic: individual-credits
   link: https://taxfoundation.org/senator-michael-bennet-real-deal/
@@ -609,7 +609,7 @@
 - candidate: bennet
   topic: cap-gains-dividends
   link: https://taxfoundation.org/senator-michael-bennet-real-deal/
-  plan: Tax capital gains at the same rate as ordinary income.                 
+  plan: Tax capital gains at the same rate as ordinary income.
 - candidate: bennet
   topic: cap-gains-dividends
   link: https://taxfoundation.org/senator-michael-bennet-real-deal/
@@ -617,31 +617,31 @@
 - candidate: bennet
   topic: corporate-international
   link: https://taxfoundation.org/senator-michael-bennet-real-deal/
-  plan: Tighten international tax provisions. 
+  plan: Tighten international tax provisions.
 - candidate: sanders
   topic: pass-through
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Repeal the Section 199A pass-through deduction.   
+  plan: Repeal the Section 199A pass-through deduction.
 - candidate: sanders
   topic: pass-through
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Subject large pass-through businesses to the corporate income tax.                
+  plan: Subject large pass-through businesses to the corporate income tax.
 - candidate: sanders
   topic: other-tax
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Further limit the interest deduction to 20 percent of adjusted taxable income and tighten related rules.  
+  plan: Further limit the interest deduction to 20 percent of adjusted taxable income and tighten related rules.
 - candidate: sanders
   topic: international-tax
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Apply the same tax rate on offshore and domestic income and apply a per-country limit on the foreign tax credit. 
+  plan: Apply the same tax rate on offshore and domestic income and apply a per-country limit on the foreign tax credit.
 - candidate: sanders
   topic: international-tax
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Limit interest deductions to 105 percent of a corporation’s share of net interest expense over worldwide earnings, treat companies managed and controlled in the U.S. as domestic corporations, and tighten the definition of inverted corporations to ones owned by 50 percent of the same shareholders after a merger. 
+  plan: Limit interest deductions to 105 percent of a corporation’s share of net interest expense over worldwide earnings, treat companies managed and controlled in the U.S. as domestic corporations, and tighten the definition of inverted corporations to ones owned by 50 percent of the same shareholders after a merger.
 - candidate: sanders
   topic: international-tax
   link: https://berniesanders.com/issues/corporate-accountability-and-democracy/
-  plan: Tighten other rules including limiting treaty shopping; reform the base erosion and anti-abuse tax rate by lowering its threshold for application, raising its rate to 17.5 percent, and excluding deductible payments that give rise to includible U.S. income; eliminate the tax break for foreign derived intangible income (FDII), and deny foreign tax credits for excise tax payments by oil, extractive, gambling, and other companies.                
+  plan: Tighten other rules including limiting treaty shopping; reform the base erosion and anti-abuse tax rate by lowering its threshold for application, raising its rate to 17.5 percent, and excluding deductible payments that give rise to includible U.S. income; eliminate the tax break for foreign derived intangible income (FDII), and deny foreign tax credits for excise tax payments by oil, extractive, gambling, and other companies.
 - candidate: steyer
   topic: individual-tax-rates
   link: https://www.tomsteyer.com/working-families-tax-cut/
@@ -649,7 +649,7 @@
 - candidate: steyer
   topic: individual-credits
   link: https://www.tomsteyer.com/working-families-tax-cut/
-  plan: Make the $2,000 child tax credit fully refundable and provide an additional $1,000 credit for children under the age of 6.   
+  plan: Make the $2,000 child tax credit fully refundable and provide an additional $1,000 credit for children under the age of 6.
 - candidate: steyer
   topic: cap-gains-dividends
   link: https://www.tomsteyer.com/working-families-tax-cut/
@@ -661,7 +661,7 @@
 - candidate: steyer
   topic: individual-tax-rates
   link: https://www.tomsteyer.com/working-families-tax-cut/
-  plan: Reverse the Tax Cuts and Jobs Act tax cut for the wealthy by restoring the 39.6 percent top marginal tax rate for the top 1% of households. 
+  plan: Reverse the Tax Cuts and Jobs Act tax cut for the wealthy by restoring the 39.6 percent top marginal tax rate for the top 1% of households.
 - candidate: bloomberg
   topic: individual-tax-rates
   link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
@@ -669,7 +669,7 @@
 - candidate: bloomberg
   topic: cap-gains-dividends
   link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
-  plan: Tax capital gains at the same rate as ordinary income for those earning more than $1 million. 
+  plan: Tax capital gains at the same rate as ordinary income for those earning more than $1 million.
 - candidate: bloomberg
   topic: individual-tax-rates
   link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
@@ -692,7 +692,7 @@
   plan: End like-kind (1031) exchanges and the current tax treatment of carried interest.
 - candidate: bloomberg
   topic: corporate-tax-rate
-  link: https://content.mikebloomberg.com/Tax+Plan+-+Release+%26+Fact+Sheet+-+Final.pdf
+  link: https://taxfoundation.org/2020-corporate-tax-proposals/
   plan: Raise the corporate income tax rate to 28 percent, up from 21 percent.
 - candidate: bloomberg
   topic: corporate-international
@@ -701,4 +701,4 @@
 - candidate: buttigieg
   topic: pass-through
   link: https://www.nytimes.com/interactive/2020/01/16/opinion/pete-buttigieg-nytimes-interview.html
-  plan: Repeal the Section 199A pass-through deduction.                
+  plan: Repeal the Section 199A pass-through deduction.
