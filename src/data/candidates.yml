@@ -72,7 +72,7 @@
   firstName: Elizabeth
   lastName: Warren
   active: true
-  running: true
+  running: false
 - id: williamson
   firstName: Marianne
   lastName: Williamson
