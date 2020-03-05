@@ -12,7 +12,7 @@
   firstName: Michael
   lastName: Bloomberg
   active: false
-  running: true
+  running: false
 - id: buttigieg
   firstName: Pete
   lastName: Buttigieg
