@@ -320,12 +320,12 @@
   plan: Create a new refundable tax credit that would be available to low- and middle-income taxpayers, called the “LIFT the Middle-Class Act.”
 - candidate: sanders
   topic: itemized-deductions
-  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Cap itemized deductions at 28 percent for households making over $250,000.
+  link: https://berniesanders.com/issues/how-does-bernie-pay-his-major-plans/
+  plan: Replace the cap on the state and local tax deduction with an overall dollar cap of $50,000 for a married couple on all itemized deductions.
 - candidate: sanders
   topic: individual-tax-rates
-  link: https://www.sanders.senate.gov/download/options-to-finance-medicare-for-all?inline=file
-  plan: Add four additional tax brackets with a top rate of 52 percent on income above $10 million.
+  link: https://berniesanders.com/issues/how-does-bernie-pay-his-major-plans/ 
+  plan: Raise the top marginal income tax rate to 52 percent on incomes above $10 million.
 - candidate: harris
   topic: individual-tax-rates
   link: https://medium.com/@KamalaHarris/my-plan-for-medicare-for-all-7730370dd421
@@ -701,4 +701,16 @@
 - candidate: buttigieg
   topic: pass-through
   link: https://www.nytimes.com/interactive/2020/01/16/opinion/pete-buttigieg-nytimes-interview.html
-  plan: Repeal the Section 199A pass-through deduction.
+  plan: Repeal the Section 199A pass-through deduction.   
+- candidate: sanders
+  topic: estate-tax
+  link: https://berniesanders.com/issues/how-does-bernie-pay-his-major-plans/
+  plan: Crack down on capital gains passed on through bequests.  
+- candidate: sanders
+  topic: corporate-tax-rate
+  link: https://berniesanders.com/issues/how-does-bernie-pay-his-major-plans/
+  plan: Establish a corporate tax increase of up to 5 percentage points on large corporations based on ratio of CEO pay to average worker pay.                
+- candidate: sanders
+  topic: payroll-tax
+  link: https://berniesanders.com/issues/how-does-bernie-pay-his-major-plans/ 
+  plan: Impose a 7.5 percent income-based premium paid by employers, exempting the first $1 million in payroll.  
