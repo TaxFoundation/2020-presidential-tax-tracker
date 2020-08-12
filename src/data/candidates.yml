@@ -36,7 +36,7 @@
 - id: harris
   firstName: Kamala
   lastName: Harris
-  active: false
+  active: true
   running: false
 - id: hickenlooper
   firstName: John
@@ -86,7 +86,7 @@
 - id: trump
   firstName: Donald
   lastName: Trump
-  active: false
+  active: true
   running: true
 - id: castro
   firstName: Julián
