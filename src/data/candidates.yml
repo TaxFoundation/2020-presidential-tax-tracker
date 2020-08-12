@@ -27,7 +27,7 @@
   firstName: Tulsi
   lastName: Gabbard
   active: false
-  running: true
+  running: false
 - id: gillibrand
   firstName: Kirsten
   lastName: Gillibrand
@@ -61,8 +61,8 @@
 - id: sanders
   firstName: Bernie
   lastName: Sanders
-  active: true
-  running: true
+  active: false
+  running: false
 - id: swalwell
   firstName: Eric
   lastName: Swalwell
@@ -71,7 +71,7 @@
 - id: warren
   firstName: Elizabeth
   lastName: Warren
-  active: true
+  active: false
   running: false
 - id: williamson
   firstName: Marianne
@@ -132,7 +132,7 @@
   firstName: William
   lastName: Weld
   active: false
-  running: true
+  running: false
 - id: blasio
   firstName: Bill
   lastName: de Blasio
