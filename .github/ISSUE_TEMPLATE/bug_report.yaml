@@ -56,3 +56,15 @@ body:
        - Other
     validations:
       required: true    
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How severe would you consider this bug?
+      description: Minor means the tool is still useable, while major means the bug renders it unusable.
+      multiple: false
+      options:
+       - Minor
+       - Moderate
+       - Major
+    validations:
+      required: true  
