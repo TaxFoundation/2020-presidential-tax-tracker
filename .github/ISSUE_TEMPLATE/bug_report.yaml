@@ -36,7 +36,7 @@ body:
     attributes:
       label: How severe would you rate this bug?
       description: Minor bugs have little impact on usability while severe bugs render the tool unusable.
-      multiple: false
+      multiple: true
       options:
         - Minor
         - Moderate
