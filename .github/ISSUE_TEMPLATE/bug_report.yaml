@@ -68,3 +68,10 @@ body:
        - Major
     validations:
       required: true  
+  - type: textarea
+    id: additional-feedback
+    attributes:
+      label: Additional feedback
+      description: Please share any additional feedback you have for improving this tool
+    validations:
+      required: true
