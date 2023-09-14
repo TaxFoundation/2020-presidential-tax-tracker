@@ -9,7 +9,7 @@ const StyledButton = styled.button`
     props.active
       ? `1px solid ${props.theme.tfBlue}`
       : `1px solid ${props.theme.borderColor}`};
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: ${props =>
     props.active ? props.theme.tfBlue : props.theme.white};
   color: ${props => (props.active ? props.theme.white : props.theme.color)};
@@ -19,9 +19,9 @@ const StyledButton = styled.button`
   padding: 4px;
 
   &:hover {
-    background-color: ${props => props.theme.white};
-    border: 1px solid ${props => props.theme.tfBlue};
-    color: ${props => props.theme.tfBlue};
+    background-color: ${props => props.theme.tfBlueHighlight};
+    border: 1px solid ${props => props.theme.tfBlueHighlight};
+    color: ${props => props.theme.white};
   }
 
   &:focus {

@@ -24,8 +24,9 @@ const Toggle = styled.button`
   color: ${props => props.theme.white};
   cursor: pointer;
   font-size: 1.2rem;
+  font-weight: bold;
   height: 100%;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   width: 100%;
 `;
 
@@ -36,7 +37,7 @@ const Selections = styled.div`
 `;
 
 const SectionHeading = styled.h2`
-  border-bottom: 1px solid ${props => props.theme.borderColor};
+  border-bottom: 3px solid ${props => props.theme.yellow};
   color: ${props => props.theme.color};
   margin: 0 0 1rem;
   text-align: center;

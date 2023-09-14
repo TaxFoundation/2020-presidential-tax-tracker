@@ -1,17 +1,18 @@
 const Theme = {
-  borderColor: '#bbb',
+  borderColor: '#ccc',
   color: 'hsl(0, 0%, 7%)',
   fontFamilies: {
-    lato: 'lato, sans-serif; ',
+    lato: 'Roboto Flex, sans-serif; ',
   },
   fontSize: '16px',
   printSize: '10pt',
   fontWeight: '400',
   maxWidth: '1000px',
   mobileWidth: '480px',
-  orange: 'hsl(14, 78%, 52%)',
-  tfBlue: 'hsl(205, 100%, 50%)',
-  tfBlueHighlight: 'hsl(205, 100%, 90%)',
+  yellow: '#FFC800',
+  tfBlue: '#235485',
+  tfBlueHighlight: '#16385A',
+  tfMint: '#55D390',
   white: 'hsl(0, 0%, 100%)',
 };
 

@@ -55,7 +55,7 @@ const StyledImage = styled.img`
 `;
 
 const ParticularPlan = styled.div`
-  border-left: 2px solid ${props => props.theme.tfBlue};
+  border-left: 2px solid ${props => props.theme.yellow};
   margin: 0.75rem 0;
   padding-left: 1rem;
 `;
@@ -88,18 +88,26 @@ const TopicDescription = styled.p`
 `;
 
 const ReadMore = styled.a`
-  color: ${props => props.theme.tfBlue};
-  text-decoration: none;
+    color: ${props => props.theme.tfBlueHighlight};
+    font-weight: 600;
+    font-size: .9rem;
+    text-decoration: none;
 
-  &::after {
-    background-image: ${props =>
-      props.href.includes('taxfoundation.org') ? '' : `url(${ExternalLink})`};
-    content: '';
-    display: inline-block;
-    height: 0.8rem;
-    margin-left: 0.5rem;
-    width: 0.8rem;
-  }
+    &:hover {
+      color: ${props => props.theme.yellow};
+      transition: color .2s;
+      transition-timing-function: ease-out;
+    }
+
+    &::after {
+      background-image: ${props =>
+        props.href.includes('taxfoundation.org') ? '' : `url(${ExternalLink})`};
+      content: '';
+      display: inline-block;
+      height: 0.8rem;
+      margin-left: 0.5rem;
+      width: 0.8rem;
+    }
 
   @media print {
     display: none;

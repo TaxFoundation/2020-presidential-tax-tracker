@@ -31,7 +31,7 @@
 - id: corporate-international
   order: 6
   name: International Income
-  category: corporate
+  category: 
   description:
 - id: pass-through
   order: 7
@@ -54,6 +54,7 @@
   category: other
   description:
 - id: wealth-tax
+  order: 11
   name: Wealth Tax
   category: individual
   description:
